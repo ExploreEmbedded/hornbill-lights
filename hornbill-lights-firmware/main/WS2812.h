@@ -18,9 +18,13 @@ typedef struct {
 
 void hornbillLights_begin(rmt_channel_t channel, gpio_num_t gpioNum, uint16_t pixelCount);
 void hornbillLights_setPixels(uint16_t index, uint8_t red, uint8_t green, uint8_t blue);
+void hornbillLights_fullShow(uint8_t red, uint8_t green, uint8_t blue);
 void hornbillLights_showPixels();
 void hornbillLights_clear();
-
+void rainbowCycle(int);
+void theaterChaseRainbow(int);
+uint8_t * Wheel(uint8_t );
+void FadeInOut(uint8_t red, uint8_t green, uint8_t blue);
 
 
 #endif /* MAIN_WS2812_H_ */

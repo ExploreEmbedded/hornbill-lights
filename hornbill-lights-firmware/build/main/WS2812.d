@@ -71,7 +71,11 @@ WS2812.o: \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/stdio.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/types.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/machine/types.h \
- /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/stdio.h
+ /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/stdio.h \
+ /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/task.h \
+ /home/sandeep/esp32_bm/esp-idf/components/newlib/include/limits.h \
+ /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/list.h \
+ /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/queue.h
 
 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/main/./WS2812.h:
 
@@ -216,3 +220,11 @@ WS2812.o: \
 /home/sandeep/esp32_bm/esp-idf/components/newlib/include/machine/types.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/stdio.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/task.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/newlib/include/limits.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/list.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/queue.h:

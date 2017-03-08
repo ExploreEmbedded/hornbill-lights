@@ -39,22 +39,7 @@ void app_main()
 
     hornbillLights_begin((rmt_channel_t) 0, (gpio_num_t)16, (uint16_t)150);
 
-    for(uint8_t pixNum =0; pixNum < 150; pixNum++)
-    {
-      hornbillLights_setPixels(pixNum, 0x00, 0xff, 0x00);
-    }
+    
 
-    hornbillLights_showPixels();
-
-    vTaskDelay(5000 / portTICK_PERIOD_MS);
-
-    hornbillLights_clear();
-
-    for(uint8_t pixNum =0; pixNum < 150; pixNum++)
-    {
-      hornbillLights_setPixels(pixNum, 0x00, 0x00, 0xff);
-    }
-
-    hornbillLights_showPixels();
 
 }

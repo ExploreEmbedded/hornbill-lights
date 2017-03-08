@@ -109,6 +109,13 @@ ble.o: \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_attr.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_intr_alloc.h \
  /home/sandeep/esp32_bm/esp-idf/components/nvs_flash/include/nvs_flash.h \
+ /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/main/./WS2812.h \
+ /home/sandeep/esp32_bm/esp-idf/components/driver/include/driver/rmt.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/rmt_reg.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/dport_reg.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/rmt_struct.h \
+ /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/ringbuf.h \
+ /home/sandeep/esp32_bm/esp-idf/components/driver/include/driver/periph_ctrl.h \
  /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/main/./ble.h
 
 /home/sandeep/esp32_bm/esp-idf/components/bt/include/bt.h:
@@ -328,5 +335,19 @@ ble.o: \
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_intr_alloc.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/nvs_flash/include/nvs_flash.h:
+
+/home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/main/./WS2812.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/driver/include/driver/rmt.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/rmt_reg.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/dport_reg.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/rmt_struct.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/ringbuf.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/driver/include/driver/periph_ctrl.h:
 
 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/main/./ble.h:

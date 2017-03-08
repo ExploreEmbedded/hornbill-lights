@@ -31,6 +31,7 @@
 #include "esp_system.h"
 #include "esp_log.h" //data logging
 #include "nvs_flash.h" //permnant
+#include "WS2812.h"
 
 #include "ble.h"
 
@@ -131,6 +132,24 @@ struct gatts_profile_inst {
     esp_bt_uuid_t descr_uuid;
 };
 
+//move this to somewhere clean
+void hornbillLights_BLE_update(uint32_t data)
+{
+    switch(data>>24)
+    {
+      case 0 : hornbillLights_fullShow(data>>16, data>>8, data); break;
+      case 1 :
+              printf("\n\r Effect:%d", data>>24);
+              rainbowCycle(20);
+              break;
+      case 2 : printf("\n\r Effect:%d", data>>24); theaterChaseRainbow(20); break;
+      case 3 : printf("\n\r Effect:%d", data>>24); FadeInOut(data>>16, data>>8, data);break;
+      default:break;
+    }
+}
+
+
+
 /* One gatt-based profile one app_id and one gatts_if, this array will store the gatts_if returned by ESP_GATTS_REG_EVT */
 static struct gatts_profile_inst gl_profile_tab[PROFILE_NUM] = {
     [PROFILE_A_APP_ID] = {
@@ -195,7 +214,7 @@ static void gatts_profile_a_event_handler(esp_gatts_cb_event_t event, esp_gatt_i
     case ESP_GATTS_WRITE_EVT: {
         ESP_LOGI(GATTS_TAG, "GATT_WRITE_EVT, conn_id %d, trans_id %d, handle %d\n", param->write.conn_id, param->write.trans_id, param->write.handle);
         ESP_LOGI(GATTS_TAG, "GATT_WRITE_EVT, value len %d, value %08x\n", param->write.len, *(uint32_t *)param->write.value);
-        //sendIR(*(uint32_t *)param->write.value);
+        hornbillLights_BLE_update(*(uint32_t *)param->write.value);
         esp_ble_gatts_send_response(gatts_if, param->write.conn_id, param->write.trans_id, ESP_GATT_OK, NULL);
         break;
     }

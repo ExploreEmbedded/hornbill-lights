@@ -1,0 +1,66 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Hornbill Lights <br>
+      <small>RGB Lights control</small>
+    </ion-title>
+
+    <ion-buttons end padding>
+      <button ion-button icon-only (click)="connectOur()">
+        <ion-toggle checked="{{connectStatus}}"></ion-toggle>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+<ion-item *ngFor = "let effect of effects" class="item-borderless">
+<ion-card  [ngStyle]="{'background-color': 'rgb(' + effect.colorRed + ',' + effect.colorGreen + ',' + effect.colorBlue +')'}">
+  <ion-card-content>
+    <ion-card-title>
+      {{effect.name}}
+    </ion-card-title>
+    <ion-grid>
+        <ion-row>
+          <ion-col ion-button icon-only width-20 outline  (click)="repeatEffect(effect.id)">
+            <ion-icon name="repeat"></ion-icon>
+          </ion-col>
+
+          <ion-col *ngIf="effect.colorPallet" ion-button icon-only offset-20 width-20 outline (click)="effect.palletShow =! effect.palletShow">
+            <ion-icon name="color-palette"></ion-icon>
+          </ion-col>
+
+          <ion-col ion-button icon-only offset-20  width-20 outline (click)="playEffect(effect.id)">
+            <ion-icon name="play"></ion-icon>
+          </ion-col>
+        </ion-row>
+    </ion-grid>
+    </ion-card-content>
+  </ion-card>
+
+  <div *ngIf="effect.palletShow">
+    <ion-list>
+        <ion-item>
+          <ion-range min="0" max="255" [(ngModel)]="effect.colorRed" color="danger" pin="true"  >
+            <ion-icon range-left small>R</ion-icon>
+            <ion-icon range-right >{{effect.colorRed}}</ion-icon>
+          </ion-range>
+        </ion-item>
+        <ion-item>
+          <ion-range min="0" max="255" [(ngModel)]="effect.colorGreen" color="danger" pin="true"  >
+            <ion-icon range-left small>G</ion-icon>
+            <ion-icon range-right >{{effect.colorGreen}}</ion-icon>
+          </ion-range>
+        </ion-item>
+        <ion-item>
+          <ion-range min="0" max="255" [(ngModel)]="effect.colorBlue" color="danger" pin="true"  >
+            <ion-icon range-left small>B</ion-icon>
+            <ion-icon range-right >{{effect.colorBlue}}</ion-icon>
+          </ion-range>
+        </ion-item>
+    </ion-list>
+  </div>
+
+</ion-item>
+
+</ion-content>

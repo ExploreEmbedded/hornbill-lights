@@ -16,8 +16,11 @@
 #include <driver/rmt.h>
 #include <stdlib.h>
 #include "sdkconfig.h"
-
 #include <stdio.h>
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
+#include "freertos/queue.h"
+#include "freertos/semphr.h"
 
 static char tag[] = "WS2812";
 
@@ -126,3 +129,82 @@ void hornbillLights_clear() {
 		Pixels[i].blue = 0;
 	}
 } // clear
+
+//Turns the full strip to given color with no effects
+void hornbillLights_fullShow(uint8_t red, uint8_t green, uint8_t blue)
+{
+	for(uint8_t pixNum =0; pixNum < PixelCount; pixNum++)
+	{
+		hornbillLights_setPixels(pixNum, green, blue, red); //the WS2812 strip we have shows colors as GRB
+	}
+	hornbillLights_showPixels();
+}
+
+//effects
+
+void rainbowCycle(int SpeedDelay) {
+  uint8_t *c;
+  uint16_t i, j;
+  for(j=0; j<256*5; j++) { // 5 cycles of all colors on wheel
+    for(i=0; i< PixelCount; i++) {
+      c=Wheel(((i * 256 / PixelCount) + j) & 255);
+      hornbillLights_setPixels(i, *c, *(c+1), *(c+2));
+    }
+    hornbillLights_showPixels();
+    vTaskDelay(SpeedDelay / portTICK_PERIOD_MS);
+  }
+}
+
+void theaterChaseRainbow(int SpeedDelay) {
+  uint8_t *c;
+  for (int j=0; j < 256; j++) {     // cycle all 256 colors in the wheel
+    for (int q=0; q < 3; q++) {
+        for (int i=0; i < PixelCount; i=i+3) {
+          c = Wheel( (i+j) % 255);
+          hornbillLights_setPixels(i+q, *c, *(c+1), *(c+2));    //turn every third pixel on
+        }
+        hornbillLights_showPixels();
+				vTaskDelay(SpeedDelay / portTICK_PERIOD_MS);
+        for (int i=0; i < PixelCount; i=i+3) {
+      			hornbillLights_setPixels(i+q, 0,0,0);        //turn every third pixel off
+        }
+    }
+  }
+}
+
+uint8_t * Wheel(uint8_t WheelPos) {
+  static uint8_t c[3];
+  if(WheelPos < 85) {
+   c[0]=WheelPos * 3;
+   c[1]=255 - WheelPos * 3;
+   c[2]=0;
+  } else if(WheelPos < 170) {
+   WheelPos -= 85;
+   c[0]=255 - WheelPos * 3;
+   c[1]=0;
+   c[2]=WheelPos * 3;
+  } else {
+   WheelPos -= 170;
+   c[0]=0;
+   c[1]=WheelPos * 3;
+   c[2]=255 - WheelPos * 3;
+  }
+  return c;
+}
+
+void FadeInOut(uint8_t red, uint8_t green, uint8_t blue){
+  float r, g, b;
+  for(int k = 0; k < 256; k=k+1) {
+    r = (k/256.0)*red;
+    g = (k/256.0)*green;
+    b = (k/256.0)*blue;
+    hornbillLights_fullShow(r,g,b);
+  }
+
+  for(int k = 255; k >= 0; k=k-2) {
+    r = (k/256.0)*red;
+    g = (k/256.0)*green;
+    b = (k/256.0)*blue;
+    hornbillLights_fullShow(r,g,b);
+  }
+}
