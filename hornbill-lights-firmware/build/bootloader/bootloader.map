@@ -1,67 +1,176 @@
 Archive member included to satisfy reference by file (symbol)
 
-/home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+/home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
                               (call_start_cpu0)
-/home/sandeep/esp32_bm/esp-idf/components/esp32/lib//librtc.a(rtc_clk.o)
-                              /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o) (rtc_set_cpu_freq)
-/home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
-                              /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o) (bootloader_mmap)
-/home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
-                              /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o) (esp_partition_table_basic_verify)
-/home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
-                              /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o) (esp_image_load_header)
-/home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
-                              /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o) (bootloader_random_enable)
-/home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
-                              /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o) (esp_log_timestamp)
-/home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
-                              /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o) (SPIUnlock)
+/home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                              /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o) (bootloader_mmap)
+/home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                              /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o) (esp_partition_table_basic_verify)
+/home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                              /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o) (esp_image_load_header)
+/home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                              /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o) (bootloader_random_enable)
+/home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
+                              /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o) (esp_log_timestamp)
+/home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                              /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o) (esp_rom_spiflash_unlock)
+/home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                              /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o) (rtc_clk_slow_freq_get)
+/home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_time.o)
+                              /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o) (rtc_clk_cal_ratio)
+/home/sandeep/esp32_bm/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+                              /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_time.o) (__udivdi3)
 
 Allocating common symbols
 Common symbol       size              file
 
 esp_image_spi_freq_t
-                    0x4               /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+                    0x4               /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
 
 Discarded input sections
 
- .text          0x0000000000000000        0x0 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
- .xt.lit        0x0000000000000000       0x50 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
- .xt.prop       0x0000000000000000      0x8c4 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
- COMMON         0x0000000000000000        0x4 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
- .literal       0x0000000000000000        0x0 /home/sandeep/esp32_bm/esp-idf/components/esp32/lib//librtc.a(rtc_clk.o)
- .xt.lit        0x0000000000000000       0x78 /home/sandeep/esp32_bm/esp-idf/components/esp32/lib//librtc.a(rtc_clk.o)
- .xt.prop       0x0000000000000000      0x48c /home/sandeep/esp32_bm/esp-idf/components/esp32/lib//librtc.a(rtc_clk.o)
+ .text          0x0000000000000000        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+ .xt.lit        0x0000000000000000       0x70 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+ .xt.prop       0x0000000000000000      0x9e4 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+ COMMON         0x0000000000000000        0x4 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
  .literal.bootloader_flash_write
-                0x0000000000000000       0x40 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000000000000       0x40 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  .literal.bootloader_flash_erase_sector
-                0x0000000000000000        0x8 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .text          0x0000000000000000        0x0 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000000000000        0x8 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .text          0x0000000000000000        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  .text.bootloader_flash_write
-                0x0000000000000000       0xb6 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000000000000       0xb2 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  .text.bootloader_flash_erase_sector
-                0x0000000000000000       0x16 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .xt.lit        0x0000000000000000       0x40 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .xt.prop       0x0000000000000000      0x348 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .text          0x0000000000000000        0x0 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .xt.lit        0x0000000000000000        0x8 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .xt.prop       0x0000000000000000       0xe4 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .text          0x0000000000000000        0x0 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .xt.lit        0x0000000000000000       0x18 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .xt.prop       0x0000000000000000      0x2ac /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000000000000       0x16 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .xt.lit        0x0000000000000000       0x40 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .xt.prop       0x0000000000000000      0x360 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .text          0x0000000000000000        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .xt.lit        0x0000000000000000        0x8 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .xt.prop       0x0000000000000000       0xe4 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .text          0x0000000000000000        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .xt.lit        0x0000000000000000       0x18 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .xt.prop       0x0000000000000000      0x2d0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
  .literal.bootloader_fill_random
-                0x0000000000000000        0x8 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .text          0x0000000000000000        0x0 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x0000000000000000        0x8 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .text          0x0000000000000000        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
  .text.bootloader_fill_random
-                0x0000000000000000       0x56 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .xt.lit        0x0000000000000000       0x18 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .xt.prop       0x0000000000000000       0xd8 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .text          0x0000000000000000        0x0 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
- .xt.lit        0x0000000000000000        0x8 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
- .xt.prop       0x0000000000000000       0x30 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
- .text          0x0000000000000000        0x0 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .xt.lit        0x0000000000000000       0x10 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .xt.prop       0x0000000000000000       0xb4 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000000       0x59 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .xt.lit        0x0000000000000000       0x18 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .xt.prop       0x0000000000000000       0xd8 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .literal.esp_log_buffer_hex
+                0x0000000000000000       0x14 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
+ .literal.esp_log_buffer_char
+                0x0000000000000000       0x14 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
+ .text          0x0000000000000000        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
+ .rodata.str1.4
+                0x0000000000000000       0x27 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
+ .text.esp_log_buffer_hex
+                0x0000000000000000       0x6b /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
+ .text.esp_log_buffer_char
+                0x0000000000000000       0x5b /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
+ .xt.lit        0x0000000000000000       0x18 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
+ .xt.prop       0x0000000000000000       0xf0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
+ .literal.spi_cache_mode_switch
+                0x0000000000000000       0x38 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .literal.esp_rom_spiflash_erase_chip_internal
+                0x0000000000000000       0x10 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .literal.esp_rom_spiflash_erase_block_internal
+                0x0000000000000000       0x18 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .literal.esp_rom_spiflash_lock
+                0x0000000000000000       0x18 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .literal.esp_rom_spiflash_config_readmode
+                0x0000000000000000       0x30 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .literal.esp_rom_spiflash_erase_chip
+                0x0000000000000000        0xc /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .literal.esp_rom_spiflash_erase_block
+                0x0000000000000000       0x20 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .literal.esp_rom_spiflash_write_encrypted
+                0x0000000000000000       0x10 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .literal.esp_rom_spiflash_erase_area
+                0x0000000000000000       0x18 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .text          0x0000000000000000        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .text.spi_cache_mode_switch
+                0x0000000000000000      0x266 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .text.esp_rom_spiflash_erase_chip_internal
+                0x0000000000000000       0x30 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .text.esp_rom_spiflash_erase_block_internal
+                0x0000000000000000       0x3c /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .text.esp_rom_spiflash_lock
+                0x0000000000000000       0x4e /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .text.esp_rom_spiflash_config_readmode
+                0x0000000000000000       0xa0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .rodata.esp_rom_spiflash_config_readmode
+                0x0000000000000000       0x18 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .text.esp_rom_spiflash_erase_chip
+                0x0000000000000000       0x24 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .text.esp_rom_spiflash_erase_block
+                0x0000000000000000       0x66 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .text.esp_rom_spiflash_write_encrypted
+                0x0000000000000000       0x5a /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .text.esp_rom_spiflash_erase_area
+                0x0000000000000000       0xbe /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .xt.lit        0x0000000000000000       0xa8 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .xt.prop       0x0000000000000000      0xb1c /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .literal.rtc_clk_32k_bootstrap
+                0x0000000000000000       0x14 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .literal.rtc_clk_32k_enabled
+                0x0000000000000000        0x8 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .literal.rtc_clk_8m_enabled
+                0x0000000000000000        0x4 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .literal.rtc_clk_8md256_enabled
+                0x0000000000000000        0x4 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .literal.rtc_clk_apll_enable
+                0x0000000000000000       0x50 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .literal.rtc_clk_slow_freq_get_hz
+                0x0000000000000000       0x10 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .literal.rtc_clk_cpu_freq_get
+                0x0000000000000000       0x28 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .literal.rtc_clk_cpu_freq_value
+                0x0000000000000000       0x2c /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .text          0x0000000000000000        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .text.rtc_clk_32k_bootstrap
+                0x0000000000000000       0x3c /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .text.rtc_clk_32k_enabled
+                0x0000000000000000       0x1a /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .text.rtc_clk_8m_enabled
+                0x0000000000000000       0x19 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .text.rtc_clk_8md256_enabled
+                0x0000000000000000       0x1a /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .text.rtc_clk_apll_enable
+                0x0000000000000000      0x162 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .text.rtc_clk_slow_freq_get_hz
+                0x0000000000000000       0x29 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .text.rtc_clk_cpu_freq_get
+                0x0000000000000000       0x94 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .text.rtc_clk_cpu_freq_value
+                0x0000000000000000       0x45 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .rodata.rtc_clk_cpu_freq_value
+                0x0000000000000000       0x14 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .rodata.__func__$2152
+                0x0000000000000000       0x17 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .rodata.__func__$2137
+                0x0000000000000000       0x15 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .xt.lit        0x0000000000000000       0xb8 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .xt.prop       0x0000000000000000      0x96c /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .literal.rtc_clk_cal
+                0x0000000000000000        0xc /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .literal.rtc_time_us_to_slowclk
+                0x0000000000000000        0x4 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .literal.rtc_time_get
+                0x0000000000000000       0x18 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .text          0x0000000000000000        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .text.rtc_clk_cal
+                0x0000000000000000       0x52 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .text.rtc_time_us_to_slowclk
+                0x0000000000000000       0x1f /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .text.rtc_time_slowclk_to_us
+                0x0000000000000000       0x1c /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .text.rtc_time_get
+                0x0000000000000000       0x50 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .xt.lit        0x0000000000000000       0x28 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .xt.prop       0x0000000000000000      0x210 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .eh_frame      0x0000000000000000       0x28 /home/sandeep/esp32_bm/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+ .xt.prop       0x0000000000000000      0x264 /home/sandeep/esp32_bm/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
 Memory Configuration
 
@@ -75,17 +184,17 @@ dram_seg         0x000000003fff0000 0x0000000000010000 rw
 Linker script and memory map
 
 START GROUP
-LOAD /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a
-LOAD /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/log/liblog.a
-LOAD /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a
-LOAD /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/micro-ecc/libmicro-ecc.a
-LOAD /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a
-LOAD /home/sandeep/esp32_bm/esp-idf/components/esp32/lib//librtc.a
-LOAD /home/sandeep/esp32_bm/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/libgcc.a
-LOAD /home/sandeep/esp32_bm/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/4.8.5/../../../../xtensa-esp32-elf/lib/libstdc++.a
+LOAD /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a
+LOAD /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/log/liblog.a
+LOAD /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a
+LOAD /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/micro-ecc/libmicro-ecc.a
+LOAD /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a
+LOAD /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a
+LOAD /home/sandeep/esp32_bm/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a
+LOAD /home/sandeep/esp32_bm/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/../../../../xtensa-esp32-elf/lib/libstdc++.a
 END GROUP
 
-.iram1.text     0x0000000040080000      0x103
+.iram1.text     0x0000000040080000       0xfb
                 0x0000000040080000                _init_start = ABSOLUTE (.)
  *(.UserEnter.literal)
  *(.UserEnter.text)
@@ -97,11 +206,12 @@ END GROUP
                 0x0000000040080000                _iram_text_start = ABSOLUTE (.)
  *(.iram1 .iram1.*)
  .iram1.literal
-                0x0000000040080000       0x34 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040080000       0x34 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x44 (size before relaxing)
- .iram1         0x0000000040080034       0xcf /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+ .iram1         0x0000000040080034       0xc7 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+                                         0xcb (size before relaxing)
                 0x0000000040080034                call_start_cpu0
-                0x0000000040080103                _iram_text_end = ABSOLUTE (.)
+                0x00000000400800fb                _iram_text_end = ABSOLUTE (.)
 
 .dram0.bss      0x000000003fff0000        0x8
                 0x000000003fff0000                . = ALIGN (0x8)
@@ -116,16 +226,18 @@ END GROUP
  *(.gnu.linkonce.sb2.*)
  *(.dynbss)
  *(.bss)
- .bss           0x000000003fff0000        0x0 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
- .bss           0x000000003fff0000        0x0 /home/sandeep/esp32_bm/esp-idf/components/esp32/lib//librtc.a(rtc_clk.o)
- .bss           0x000000003fff0000        0x0 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .bss           0x000000003fff0000        0x0 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .bss           0x000000003fff0000        0x0 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .bss           0x000000003fff0000        0x0 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .bss           0x000000003fff0000        0x0 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
- .bss           0x000000003fff0000        0x0 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .bss           0x000000003fff0000        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+ .bss           0x000000003fff0000        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .bss           0x000000003fff0000        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .bss           0x000000003fff0000        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .bss           0x000000003fff0000        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .bss           0x000000003fff0000        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
+ .bss           0x000000003fff0000        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .bss           0x000000003fff0000        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .bss           0x000000003fff0000        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .bss           0x000000003fff0000        0x0 /home/sandeep/esp32_bm/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
  *(.bss.*)
- .bss.mapped    0x000000003fff0000        0x1 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .bss.mapped    0x000000003fff0000        0x1 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  *(.gnu.linkonce.b.*)
  *(COMMON)
                 0x000000003fff0008                . = ALIGN (0x8)
@@ -135,18 +247,20 @@ END GROUP
 .dram0.data     0x000000003fff0008        0x8
                 0x000000003fff0008                _data_start = ABSOLUTE (.)
  *(.data)
- .data          0x000000003fff0008        0x0 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
- .data          0x000000003fff0008        0x0 /home/sandeep/esp32_bm/esp-idf/components/esp32/lib//librtc.a(rtc_clk.o)
- .data          0x000000003fff0008        0x0 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .data          0x000000003fff0008        0x0 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .data          0x000000003fff0008        0x0 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .data          0x000000003fff0008        0x0 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .data          0x000000003fff0008        0x0 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
- .data          0x000000003fff0008        0x0 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .data          0x000000003fff0008        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+ .data          0x000000003fff0008        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .data          0x000000003fff0008        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .data          0x000000003fff0008        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .data          0x000000003fff0008        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .data          0x000000003fff0008        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
+ .data          0x000000003fff0008        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .data          0x000000003fff0008        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .data          0x000000003fff0008        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .data          0x000000003fff0008        0x0 /home/sandeep/esp32_bm/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
  *(.data.*)
  .data.current_read_mapping
-                0x000000003fff0008        0x4 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .data.TAG      0x000000003fff000c        0x4 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x000000003fff0008        0x4 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .data.TAG      0x000000003fff000c        0x4 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
                 0x000000003fff000c                TAG
  *(.gnu.linkonce.d.*)
  *(.data1)
@@ -159,276 +273,499 @@ END GROUP
  *(.jcr)
                 0x000000003fff0010                _data_end = ABSOLUTE (.)
 
-.dram0.rodata   0x000000003fff0010      0xd3c
+.dram0.rodata   0x000000003fff0010     0x1134
                 0x000000003fff0010                _rodata_start = ABSOLUTE (.)
  *(.rodata)
- .rodata        0x000000003fff0010       0x14 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+ .rodata        0x000000003fff0010       0x1c /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
  *(.rodata.*)
  .rodata.str1.4
-                0x000000003fff0024      0x748 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
-                                        0x74c (size before relaxing)
- .rodata.print_flash_info
-                0x000000003fff076c       0x18 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x000000003fff002c      0x8a0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+                                        0x8a4 (size before relaxing)
  .rodata.str1.4
-                0x000000003fff0784        0xa /home/sandeep/esp32_bm/esp-idf/components/esp32/lib//librtc.a(rtc_clk.o)
- *fill*         0x000000003fff078e        0x2 
+                0x000000003fff08cc      0x28e /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ *fill*         0x000000003fff0b5a        0x2 
  .rodata.str1.4
-                0x000000003fff0790      0x28e /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- *fill*         0x000000003fff0a1e        0x2 
+                0x000000003fff0b5c       0xfb /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ *fill*         0x000000003fff0c57        0x1 
  .rodata.str1.4
-                0x000000003fff0a20       0xfb /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- *fill*         0x000000003fff0b1b        0x1 
+                0x000000003fff0c58      0x282 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ *fill*         0x000000003fff0eda        0x2 
  .rodata.str1.4
-                0x000000003fff0b1c      0x222 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- *fill*         0x000000003fff0d3e        0x2 
+                0x000000003fff0edc        0x9 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ *fill*         0x000000003fff0ee5        0x3 
  .rodata.str1.4
-                0x000000003fff0d40        0xc /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
-                                          0x9 (size before relaxing)
+                0x000000003fff0ee8      0x1f8 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                        0x1f5 (size before relaxing)
+ .rodata.rtc_clk_xtal_freq_estimate
+                0x000000003fff10e0       0x64 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
  *(.irom1.text)
  *(.gnu.linkonce.r.*)
  *(.rodata1)
-                0x000000003fff0d4c                __XT_EXCEPTION_TABLE_ = ABSOLUTE (.)
+                0x000000003fff1144                __XT_EXCEPTION_TABLE_ = ABSOLUTE (.)
  *(.xt_except_table)
  *(.gcc_except_table)
  *(.gnu.linkonce.e.*)
  *(.gnu.version_r)
  *(.eh_frame)
-                0x000000003fff0d4c                . = ((. + 0x3) & 0xfffffffffffffffc)
-                0x000000003fff0d4c                __init_array_start = ABSOLUTE (.)
+                0x000000003fff1144                . = ((. + 0x3) & 0xfffffffffffffffc)
+                0x000000003fff1144                __init_array_start = ABSOLUTE (.)
  *crtbegin.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o) .ctors)
  *(SORT(.ctors.*))
  *(.ctors)
-                0x000000003fff0d4c                __init_array_end = ABSOLUTE (.)
+                0x000000003fff1144                __init_array_end = ABSOLUTE (.)
  *crtbegin.o(.dtors)
  *(EXCLUDE_FILE(*crtend.o) .dtors)
  *(SORT(.dtors.*))
  *(.dtors)
-                0x000000003fff0d4c                __XT_EXCEPTION_DESCS_ = ABSOLUTE (.)
+                0x000000003fff1144                __XT_EXCEPTION_DESCS_ = ABSOLUTE (.)
  *(.xt_except_desc)
  *(.gnu.linkonce.h.*)
-                0x000000003fff0d4c                __XT_EXCEPTION_DESCS_END__ = ABSOLUTE (.)
+                0x000000003fff1144                __XT_EXCEPTION_DESCS_END__ = ABSOLUTE (.)
  *(.xt_except_desc_end)
  *(.dynamic)
  *(.gnu.version_d)
-                0x000000003fff0d4c                _rodata_end = ABSOLUTE (.)
-                0x000000003fff0d4c                _lit4_start = ABSOLUTE (.)
+                0x000000003fff1144                _rodata_end = ABSOLUTE (.)
+                0x000000003fff1144                _lit4_start = ABSOLUTE (.)
  *(*.lit4)
  *(.lit4.*)
  *(.gnu.linkonce.lit4.*)
-                0x000000003fff0d4c                _lit4_end = ABSOLUTE (.)
-                0x000000003fff0d4c                . = ALIGN (0x4)
-                0x000000003fff0d4c                _heap_start = ABSOLUTE (.)
+                0x000000003fff1144                _lit4_end = ABSOLUTE (.)
+                0x000000003fff1144                . = ALIGN (0x4)
+                0x000000003fff1144                _heap_start = ABSOLUTE (.)
 
 .iram_pool_1.text
-                0x0000000040078000     0x1d97
+                0x0000000040078000     0x2b45
                 0x0000000040078000                _stext = .
                 0x0000000040078000                _text_start = ABSOLUTE (.)
  *(.literal .text .literal.* .text.* .stub .gnu.warning .gnu.linkonce.literal.* .gnu.linkonce.t.*.literal .gnu.linkonce.t.*)
+ .literal.wdt_reset_cpu0_info_enable
+                0x0000000040078000        0x4 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+ .literal.wdt_reset_info_dump
+                0x0000000040078004       0x60 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+                                         0x6c (size before relaxing)
+ .literal.clock_configure
+                0x0000000040078064       0x14 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+                                         0x20 (size before relaxing)
  .literal.uart_console_configure
-                0x0000000040078000       0x14 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
- .literal.update_flash_config
-                0x0000000040078014       0x20 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040078078       0x10 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+                                         0x18 (size before relaxing)
+ .literal.wdt_reset_check
+                0x0000000040078088        0xc /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+                                         0x30 (size before relaxing)
  .literal.ota_select_crc
-                0x0000000040078034        0x4 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040078094        0x4 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
  .literal.ota_select_valid
-                0x0000000040078038        0x0 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040078098        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
                                           0x4 (size before relaxing)
+ .literal.update_flash_config
+                0x0000000040078098       0x20 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
  .literal.set_cache_and_start_app
-                0x0000000040078038       0x10 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x00000000400780b8       0x10 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x2c (size before relaxing)
  .literal.unpack_load_app
-                0x0000000040078048       0x5c /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x00000000400780c8       0x50 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0xa8 (size before relaxing)
  .literal.load_partition_table
-                0x00000000400780a4       0x44 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040078118       0x44 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x84 (size before relaxing)
  .literal.print_flash_info
-                0x00000000400780e8       0x4c /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x000000004007815c       0x4c /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
                                          0x68 (size before relaxing)
  .literal.bootloader_main
-                0x0000000040078134       0x4c /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
-                                        0x124 (size before relaxing)
+                0x00000000400781a8       0x4c /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+                                        0x134 (size before relaxing)
  .literal.spi_to_esp_err
-                0x0000000040078180        0x8 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x00000000400781f4        0x8 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  .literal.bootloader_flash_read_allow_decrypt
-                0x0000000040078188       0x10 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x00000000400781fc       0x10 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                                          0x30 (size before relaxing)
  .literal.bootloader_flash_read_no_decrypt
-                0x0000000040078198        0x4 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x000000004007820c        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                                          0x14 (size before relaxing)
  .literal.bootloader_mmap
-                0x000000004007819c       0x14 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
-                                         0x40 (size before relaxing)
+                0x000000004007820c       0x14 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                                         0x50 (size before relaxing)
  .literal.bootloader_munmap
-                0x00000000400781b0        0x4 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040078220        0x4 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                                          0x14 (size before relaxing)
  .literal.bootloader_flash_read
-                0x00000000400781b4        0xc /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040078224        0xc /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
                                          0x30 (size before relaxing)
  .literal.esp_partition_table_basic_verify
-                0x00000000400781c0       0x14 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                0x0000000040078230       0x14 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
                                          0x30 (size before relaxing)
  .literal.esp_image_load_header
-                0x00000000400781d4       0x14 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040078244       0x14 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x34 (size before relaxing)
  .literal.esp_image_load_segment_header
-                0x00000000400781e8        0xc /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000040078258        0xc /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
                                          0x28 (size before relaxing)
  .literal.esp_image_basic_verify
-                0x00000000400781f4        0xc /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
-                                         0x40 (size before relaxing)
+                0x0000000040078264       0x10 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                                         0x5c (size before relaxing)
  .literal.bootloader_random_enable
-                0x0000000040078200       0x6c /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
-                                         0x70 (size before relaxing)
+                0x0000000040078274       0x70 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                                         0x78 (size before relaxing)
  .literal.bootloader_random_disable
-                0x000000004007826c       0x18 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
-                                         0x40 (size before relaxing)
+                0x00000000400782e4       0x1c /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                                         0x4c (size before relaxing)
  .literal.esp_log_early_timestamp
-                0x0000000040078284        0x8 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
- .literal.Wait_SPI_Idle
-                0x000000004007828c        0x8 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- .literal.SPIUnlock
-                0x0000000040078294       0x1c /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
-                                         0x28 (size before relaxing)
- .text.uart_console_configure
-                0x00000000400782b0       0x2a /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
- *fill*         0x00000000400782da        0x2 
- .text.update_flash_config
-                0x00000000400782dc       0x68 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
- .text.ota_select_crc
-                0x0000000040078344       0x14 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
- .text.ota_select_valid
-                0x0000000040078358       0x20 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040078300        0x8 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
+ .literal.esp_rom_spiflash_read_status
+                0x0000000040078308       0x10 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                                         0x14 (size before relaxing)
+ .literal.esp_rom_spiflash_wait_idle
+                0x0000000040078318        0x8 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                                          0xc (size before relaxing)
+ .literal.esp_rom_spiflash_erase_sector_internal
+                0x0000000040078320        0x8 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                                         0x18 (size before relaxing)
+ .literal.esp_rom_spiflash_read_data
+                0x0000000040078328        0xc /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                                         0x18 (size before relaxing)
+ .literal.esp_rom_spiflash_enable_write
+                0x0000000040078334        0x4 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                                         0x10 (size before relaxing)
+ .literal.esp_rom_spiflash_program_page_internal
+                0x0000000040078338        0x4 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
                                          0x24 (size before relaxing)
- .text.set_cache_and_start_app
-                0x0000000040078378       0xb3 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
- *fill*         0x000000004007842b        0x1 
- .text.unpack_load_app
-                0x000000004007842c      0x216 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
-                                        0x22a (size before relaxing)
- *fill*         0x0000000040078642        0x2 
- .text.load_partition_table
-                0x0000000040078644      0x164 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
-                                        0x17c (size before relaxing)
-                0x0000000040078644                load_partition_table
- .text.print_flash_info
-                0x00000000400787a8       0xf2 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
-                0x00000000400787a8                print_flash_info
- *fill*         0x000000004007889a        0x2 
- .text.bootloader_main
-                0x000000004007889c      0x316 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
-                                        0x36e (size before relaxing)
-                0x000000004007889c                bootloader_main
- *fill*         0x0000000040078bb2        0x2 
- .text          0x0000000040078bb4      0x8aa /home/sandeep/esp32_bm/esp-idf/components/esp32/lib//librtc.a(rtc_clk.o)
-                                        0x97e (size before relaxing)
-                0x0000000040078c38                rtc_xtal_32k_ena
-                0x0000000040078c74                rtc_8m_ena
-                0x0000000040078d4c                rtc_plla_ena
-                0x0000000040078e64                rtc_set_slow_freq
-                0x0000000040078e90                rtc_set_fast_freq
-                0x0000000040078ec4                rtc_bbpll_md
-                0x0000000040078fdc                rtc_init_xtal_freq
-                0x0000000040079004                rtc_get_xtal
-                0x0000000040079058                rtc_apb_freq_up
-                0x0000000040079074                rtc_uart_div_modify
-                0x00000000400790a0                rtc_uart_tx_wait_idle
-                0x00000000400790f0                rtc_set_cpu_freq
-                0x0000000040079348                rtc_init_clk
-                0x000000004007943c                rtc_init_clk_lite
- *fill*         0x000000004007945e        0x2 
- .text.spi_to_esp_err
-                0x0000000040079460       0x22 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- *fill*         0x0000000040079482        0x2 
- .text.bootloader_flash_read_allow_decrypt
-                0x0000000040079484       0x91 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
-                                         0x95 (size before relaxing)
- *fill*         0x0000000040079515        0x3 
- .text.bootloader_flash_read_no_decrypt
-                0x0000000040079518       0x32 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
-                                         0x36 (size before relaxing)
- *fill*         0x000000004007954a        0x2 
- .text.bootloader_mmap
-                0x000000004007954c       0x91 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
-                0x000000004007954c                bootloader_mmap
- *fill*         0x00000000400795dd        0x3 
- .text.bootloader_munmap
-                0x00000000400795e0       0x36 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
-                0x00000000400795e0                bootloader_munmap
- *fill*         0x0000000040079616        0x2 
- .text.bootloader_flash_read
-                0x0000000040079618       0x86 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
-                0x0000000040079618                bootloader_flash_read
- *fill*         0x000000004007969e        0x2 
- .text.esp_partition_table_basic_verify
-                0x00000000400796a0       0xae /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
-                                         0xb2 (size before relaxing)
-                0x00000000400796a0                esp_partition_table_basic_verify
- *fill*         0x000000004007974e        0x2 
- .text.esp_image_load_header
-                0x0000000040079750       0x96 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
-                                         0x9e (size before relaxing)
-                0x0000000040079750                esp_image_load_header
- *fill*         0x00000000400797e6        0x2 
- .text.esp_image_load_segment_header
-                0x00000000400797e8       0xb5 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
-                                         0xbd (size before relaxing)
-                0x00000000400797e8                esp_image_load_segment_header
- *fill*         0x000000004007989d        0x3 
- .text.esp_image_basic_verify
-                0x00000000400798a0      0x191 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
-                                        0x19d (size before relaxing)
-                0x00000000400798a0                esp_image_basic_verify
- *fill*         0x0000000040079a31        0x3 
- .text.bootloader_random_enable
-                0x0000000040079a34      0x1c2 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
-                0x0000000040079a34                bootloader_random_enable
- *fill*         0x0000000040079bf6        0x2 
- .text.bootloader_random_disable
-                0x0000000040079bf8       0xf9 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
-                0x0000000040079bf8                bootloader_random_disable
- *fill*         0x0000000040079cf1        0x3 
- .text.esp_log_early_timestamp
-                0x0000000040079cf4       0x14 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
-                0x0000000040079cf4                esp_log_timestamp
-                0x0000000040079cf4                esp_log_early_timestamp
- .text.Wait_SPI_Idle
-                0x0000000040079d08       0x21 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
- *fill*         0x0000000040079d29        0x3 
- .text.SPIUnlock
-                0x0000000040079d2c       0x64 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .literal.esp_rom_spiflash_read_statushigh
+                0x000000004007833c        0x4 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                                          0xc (size before relaxing)
+ .literal.esp_rom_spiflash_write_status
+                0x0000000040078340        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                                         0x14 (size before relaxing)
+ .literal.esp_rom_spiflash_unlock
+                0x0000000040078340        0x8 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                                         0x28 (size before relaxing)
+ .literal.esp_rom_spiflash_erase_sector
+                0x0000000040078348       0x10 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                                         0x20 (size before relaxing)
+ .literal.esp_rom_spiflash_write
+                0x0000000040078358        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                                         0x28 (size before relaxing)
+ .literal.esp_rom_spiflash_read
+                0x0000000040078358       0x2c /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                                         0x5c (size before relaxing)
+ .literal.rtc_clk_32k_enable_internal
+                0x0000000040078384       0x10 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                         0x14 (size before relaxing)
+ .literal.rtc_clk_xtal_freq_estimate
+                0x0000000040078394       0x14 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                         0x30 (size before relaxing)
+ .literal.rtc_clk_32k_enable
+                0x00000000400783a8        0x4 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                          0xc (size before relaxing)
+ .literal.rtc_clk_8m_enable
+                0x00000000400783ac       0x10 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .literal.rtc_clk_slow_freq_set
+                0x00000000400783bc        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                          0xc (size before relaxing)
+ .literal.rtc_clk_slow_freq_get
+                0x00000000400783bc        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                          0x4 (size before relaxing)
+ .literal.rtc_clk_fast_freq_set
+                0x00000000400783bc        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                          0xc (size before relaxing)
+ .literal.rtc_clk_fast_freq_get
+                0x00000000400783bc        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                          0x4 (size before relaxing)
+ .literal.rtc_clk_bbpll_set
+                0x00000000400783bc        0xc /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                         0x30 (size before relaxing)
+ .literal.rtc_clk_xtal_freq_get
+                0x00000000400783c8        0x8 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                         0x1c (size before relaxing)
+ .literal.rtc_clk_xtal_freq_update
+                0x00000000400783d0        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                          0x8 (size before relaxing)
+ .literal.rtc_clk_apb_freq_update
+                0x00000000400783d0        0x4 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                          0x8 (size before relaxing)
+ .literal.rtc_clk_cpu_freq_set
+                0x00000000400783d4       0x30 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                         0x74 (size before relaxing)
+ .literal.rtc_clk_apb_freq_get
+                0x0000000040078404        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                          0x8 (size before relaxing)
+ .literal.rtc_clk_init
+                0x0000000040078404       0x20 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
                                          0x6c (size before relaxing)
-                0x0000000040079d2c                SPIUnlock
- *fill*         0x0000000040079d90        0x0 
- *fill*         0x0000000040079d90        0x0 
- *fill*         0x0000000040079d90        0x0 
- *fill*         0x0000000040079d90        0x0 
- *fill*         0x0000000040079d90        0x0 
- .text.rtc_printf
-                0x0000000040079d90        0x7 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
-                0x0000000040079d90                rtc_printf
- *fill*         0x0000000040079d97        0x0 
- *fill*         0x0000000040079d97        0x0 
- *fill*         0x0000000040079d97        0x0 
- *fill*         0x0000000040079d97        0x0 
- *fill*         0x0000000040079d97        0x0 
- *fill*         0x0000000040079d97        0x0 
- *fill*         0x0000000040079d97        0x0 
- *fill*         0x0000000040079d97        0x0 
- *fill*         0x0000000040079d97        0x0 
- *fill*         0x0000000040079d97        0x0 
- *fill*         0x0000000040079d97        0x0 
- *fill*         0x0000000040079d97        0x0 
- *fill*         0x0000000040079d97        0x0 
- *fill*         0x0000000040079d97        0x0 
- *fill*         0x0000000040079d97        0x0 
+ .literal.rtc_clk_cal_internal
+                0x0000000040078424       0x20 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_time.o)
+                                         0x3c (size before relaxing)
+ .literal.rtc_clk_cal_ratio
+                0x0000000040078444        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_time.o)
+                                          0x8 (size before relaxing)
+ .text.wdt_reset_cpu0_info_enable
+                0x0000000040078444       0x27 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+ *fill*         0x000000004007846b        0x1 
+ .text.wdt_reset_info_dump
+                0x000000004007846c       0xe6 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+ *fill*         0x0000000040078552        0x2 
+ .text.clock_configure
+                0x0000000040078554       0x7a /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+                                         0x82 (size before relaxing)
+ *fill*         0x00000000400785ce        0x2 
+ .text.uart_console_configure
+                0x00000000400785d0       0x36 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+                                         0x3a (size before relaxing)
+ *fill*         0x0000000040078606        0x2 
+ .text.wdt_reset_check
+                0x0000000040078608       0xa2 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+                                         0xae (size before relaxing)
+ *fill*         0x00000000400786aa        0x2 
+ .text.ota_select_crc
+                0x00000000400786ac       0x14 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+ .text.ota_select_valid
+                0x00000000400786c0       0x20 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+                                         0x24 (size before relaxing)
+ .text.update_flash_config
+                0x00000000400786e0       0x68 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+ .text.set_cache_and_start_app
+                0x0000000040078748       0xb3 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+ *fill*         0x00000000400787fb        0x1 
+ .text.unpack_load_app
+                0x00000000400787fc      0x208 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+                                        0x220 (size before relaxing)
+ .text.load_partition_table
+                0x0000000040078a04      0x160 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+                                        0x17c (size before relaxing)
+                0x0000000040078a04                load_partition_table
+ .text.print_flash_info
+                0x0000000040078b64       0xf6 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000040078b64                print_flash_info
+ *fill*         0x0000000040078c5a        0x2 
+ .text.bootloader_main
+                0x0000000040078c5c      0x332 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+                                        0x39a (size before relaxing)
+                0x0000000040078c5c                bootloader_main
+ *fill*         0x0000000040078f8e        0x2 
+ .text.spi_to_esp_err
+                0x0000000040078f90       0x22 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ *fill*         0x0000000040078fb2        0x2 
+ .text.bootloader_flash_read_allow_decrypt
+                0x0000000040078fb4       0x97 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                                         0x9b (size before relaxing)
+ *fill*         0x000000004007904b        0x1 
+ .text.bootloader_flash_read_no_decrypt
+                0x000000004007904c       0x32 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                                         0x36 (size before relaxing)
+ *fill*         0x000000004007907e        0x2 
+ .text.bootloader_mmap
+                0x0000000040079080       0xb1 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                                         0xb9 (size before relaxing)
+                0x0000000040079080                bootloader_mmap
+ *fill*         0x0000000040079131        0x3 
+ .text.bootloader_munmap
+                0x0000000040079134       0x36 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000040079134                bootloader_munmap
+ *fill*         0x000000004007916a        0x2 
+ .text.bootloader_flash_read
+                0x000000004007916c       0x86 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x000000004007916c                bootloader_flash_read
+ *fill*         0x00000000400791f2        0x2 
+ .text.esp_partition_table_basic_verify
+                0x00000000400791f4       0xb1 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                                         0xb5 (size before relaxing)
+                0x00000000400791f4                esp_partition_table_basic_verify
+ *fill*         0x00000000400792a5        0x3 
+ .text.esp_image_load_header
+                0x00000000400792a8       0x96 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                                         0x9e (size before relaxing)
+                0x00000000400792a8                esp_image_load_header
+ *fill*         0x000000004007933e        0x2 
+ .text.esp_image_load_segment_header
+                0x0000000040079340       0xb9 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                                         0xc1 (size before relaxing)
+                0x0000000040079340                esp_image_load_segment_header
+ *fill*         0x00000000400793f9        0x3 
+ .text.esp_image_basic_verify
+                0x00000000400793fc      0x1b6 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                                        0x1c6 (size before relaxing)
+                0x00000000400793fc                esp_image_basic_verify
+ *fill*         0x00000000400795b2        0x2 
+ .text.bootloader_random_enable
+                0x00000000400795b4      0x1d5 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x00000000400795b4                bootloader_random_enable
+ *fill*         0x0000000040079789        0x3 
+ .text.bootloader_random_disable
+                0x000000004007978c      0x11c /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x000000004007978c                bootloader_random_disable
+ .text.esp_log_early_timestamp
+                0x00000000400798a8       0x14 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
+                0x00000000400798a8                esp_log_timestamp
+                0x00000000400798a8                esp_log_early_timestamp
+ .text.esp_rom_spiflash_read_status
+                0x00000000400798bc       0x61 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x00000000400798bc                esp_rom_spiflash_read_status
+ *fill*         0x000000004007991d        0x3 
+ .text.esp_rom_spiflash_wait_idle
+                0x0000000040079920       0x32 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040079920                esp_rom_spiflash_wait_idle
+ *fill*         0x0000000040079952        0x2 
+ .text.esp_rom_spiflash_erase_sector_internal
+                0x0000000040079954       0x44 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .text.esp_rom_spiflash_read_data
+                0x0000000040079998       0xe2 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ *fill*         0x0000000040079a7a        0x2 
+ .text.esp_rom_spiflash_enable_write
+                0x0000000040079a7c       0x39 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                                         0x3d (size before relaxing)
+ *fill*         0x0000000040079ab5        0x3 
+ .text.esp_rom_spiflash_program_page_internal
+                0x0000000040079ab8       0xea /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                                         0xee (size before relaxing)
+ *fill*         0x0000000040079ba2        0x2 
+ .text.esp_rom_spiflash_read_statushigh
+                0x0000000040079ba4       0x21 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040079ba4                esp_rom_spiflash_read_statushigh
+ *fill*         0x0000000040079bc5        0x3 
+ .text.esp_rom_spiflash_write_status
+                0x0000000040079bc8       0x34 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                                         0x38 (size before relaxing)
+                0x0000000040079bc8                esp_rom_spiflash_write_status
+ .text.esp_rom_spiflash_unlock
+                0x0000000040079bfc       0x6a /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                                         0x7e (size before relaxing)
+                0x0000000040079bfc                esp_rom_spiflash_unlock
+ *fill*         0x0000000040079c66        0x2 
+ .text.esp_rom_spiflash_erase_sector
+                0x0000000040079c68       0x61 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                                         0x65 (size before relaxing)
+                0x0000000040079c68                esp_rom_spiflash_erase_sector
+ *fill*         0x0000000040079cc9        0x3 
+ .text.esp_rom_spiflash_write
+                0x0000000040079ccc       0xc6 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                                         0xca (size before relaxing)
+                0x0000000040079ccc                esp_rom_spiflash_write
+ *fill*         0x0000000040079d92        0x2 
+ .text.esp_rom_spiflash_read
+                0x0000000040079d94      0x284 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000040079d94                esp_rom_spiflash_read
+ .text.rtc_clk_32k_enable_internal
+                0x000000004007a018       0x81 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ *fill*         0x000000004007a099        0x3 
+ .text.rtc_clk_xtal_freq_estimate
+                0x000000004007a09c       0x8a /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ *fill*         0x000000004007a126        0x2 
+ .text.rtc_clk_32k_enable
+                0x000000004007a128       0x2d /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a128                rtc_clk_32k_enable
+ *fill*         0x000000004007a155        0x3 
+ .text.rtc_clk_8m_enable
+                0x000000004007a158       0x9d /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a158                rtc_clk_8m_enable
+ *fill*         0x000000004007a1f5        0x3 
+ .text.rtc_clk_slow_freq_set
+                0x000000004007a1f8       0x27 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a1f8                rtc_clk_slow_freq_set
+ *fill*         0x000000004007a21f        0x1 
+ .text.rtc_clk_slow_freq_get
+                0x000000004007a220       0x10 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a220                rtc_clk_slow_freq_get
+ .text.rtc_clk_fast_freq_set
+                0x000000004007a230       0x2a /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a230                rtc_clk_fast_freq_set
+ *fill*         0x000000004007a25a        0x2 
+ .text.rtc_clk_fast_freq_get
+                0x000000004007a25c       0x10 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                0x000000004007a25c                rtc_clk_fast_freq_get
+ .text.rtc_clk_bbpll_set
+                0x000000004007a26c      0x154 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                        0x15c (size before relaxing)
+                0x000000004007a26c                rtc_clk_bbpll_set
+ .text.rtc_clk_xtal_freq_get
+                0x000000004007a3c0       0x38 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                         0x3c (size before relaxing)
+                0x000000004007a3c0                rtc_get_xtal
+                0x000000004007a3c0                rtc_clk_xtal_freq_get
+ .text.rtc_clk_xtal_freq_update
+                0x000000004007a3f8       0x12 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                         0x16 (size before relaxing)
+                0x000000004007a3f8                rtc_clk_xtal_freq_update
+ *fill*         0x000000004007a40a        0x2 
+ .text.rtc_clk_apb_freq_update
+                0x000000004007a40c       0x13 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                         0x16 (size before relaxing)
+                0x000000004007a40c                rtc_clk_apb_freq_update
+ *fill*         0x000000004007a41f        0x1 
+ .text.rtc_clk_cpu_freq_set
+                0x000000004007a420      0x1b4 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                        0x1c4 (size before relaxing)
+                0x000000004007a420                rtc_clk_cpu_freq_set
+ .text.rtc_clk_apb_freq_get
+                0x000000004007a5d4       0x13 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                         0x16 (size before relaxing)
+                0x000000004007a5d4                rtc_clk_apb_freq_get
+ *fill*         0x000000004007a5e7        0x1 
+ .text.rtc_clk_init
+                0x000000004007a5e8      0x11e /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                        0x13a (size before relaxing)
+                0x000000004007a5e8                rtc_clk_init
+ *fill*         0x000000004007a706        0x2 
+ .text.rtc_clk_cal_internal
+                0x000000004007a708      0x161 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_time.o)
+ *fill*         0x000000004007a869        0x3 
+ .text.rtc_clk_cal_ratio
+                0x000000004007a86c       0x20 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_time.o)
+                                         0x24 (size before relaxing)
+                0x000000004007a86c                rtc_clk_cal_ratio
+ *fill*         0x000000004007a88c        0x0 
+ *fill*         0x000000004007a88c        0x0 
+ *fill*         0x000000004007a88c        0x0 
+ *fill*         0x000000004007a88c        0x0 
+ *fill*         0x000000004007a88c        0x0 
+ *fill*         0x000000004007a88c        0x0 
+ *fill*         0x000000004007a88c        0x0 
+ *fill*         0x000000004007a88c        0x0 
+ *fill*         0x000000004007a88c        0x0 
+ *fill*         0x000000004007a88c        0x0 
+ *fill*         0x000000004007a88c        0x0 
+ *fill*         0x000000004007a88c        0x0 
+ *fill*         0x000000004007a88c        0x0 
+ *fill*         0x000000004007a88c        0x0 
+ *fill*         0x000000004007a88c        0x0 
+ *fill*         0x000000004007a88c        0x0 
+ *fill*         0x000000004007a88c        0x0 
+ *fill*         0x000000004007a88c        0x0 
+ *fill*         0x000000004007a88c        0x0 
+ *fill*         0x000000004007a88c        0x0 
+ *fill*         0x000000004007a88c        0x0 
+ *fill*         0x000000004007a88c        0x0 
+ *fill*         0x000000004007a88c        0x0 
+ *fill*         0x000000004007a88c        0x0 
+ *fill*         0x000000004007a88c        0x0 
+ *fill*         0x000000004007a88c        0x0 
+ *fill*         0x000000004007a88c        0x0 
+ *fill*         0x000000004007a88c        0x0 
+ *fill*         0x000000004007a88c        0x0 
+ .text.clk_val_is_valid
+                0x000000004007a88c       0x20 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .text.reg_val_to_clk_val
+                0x000000004007a8ac        0x8 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .text.clk_val_to_reg_val
+                0x000000004007a8b4        0xe /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ *fill*         0x000000004007a8c2        0x0 
+ *fill*         0x000000004007a8c2        0x0 
+ *fill*         0x000000004007a8c2        0x0 
+ *fill*         0x000000004007a8c2        0x0 
+ *fill*         0x000000004007a8c2        0x0 
+ *fill*         0x000000004007a8c2        0x0 
+ *fill*         0x000000004007a8c2        0x0 
+ *fill*         0x000000004007a8c2        0x0 
+ *fill*         0x000000004007a8c2        0x0 
+ *fill*         0x000000004007a8c2        0x0 
+ *fill*         0x000000004007a8c2        0x2 
+ .text          0x000000004007a8c4      0x281 /home/sandeep/esp32_bm/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+                0x000000004007a8c4                __udivdi3
  *(.irom0.text)
  *(.fini.literal)
  *(.fini)
  *(.gnu.version)
-                0x0000000040079d97                _text_end = ABSOLUTE (.)
-                0x0000000040079d97                _etext = .
+                0x000000004007ab45                _text_end = ABSOLUTE (.)
+                0x000000004007ab45                _etext = .
                 [!provide]                        PROVIDE (abort, 0x4000bba4)
                 [!provide]                        PROVIDE (abs, 0x40056340)
                 [!provide]                        PROVIDE (__absvdi2, 0x4006387c)
@@ -476,16 +813,15 @@ END GROUP
                 [!provide]                        PROVIDE (btdm_r_plf_func_p_set, 0x40054288)
                 [!provide]                        PROVIDE (bt_util_buf_env, 0x3ffb8bd4)
                 [!provide]                        PROVIDE (bzero, 0x4000c1f4)
-                0x00000000400095e0                PROVIDE (cache_flash_mmu_set, 0x400095e0)
-                0x0000000040009a14                PROVIDE (Cache_Flush, 0x40009a14)
-                0x0000000040009ab8                PROVIDE (Cache_Read_Disable, 0x40009ab8)
-                0x0000000040009a84                PROVIDE (Cache_Read_Enable, 0x40009a84)
-                [!provide]                        PROVIDE (Cache_Read_Init, 0x40009950)
-                [!provide]                        PROVIDE (cache_sram_mmu_set, 0x400097f4)
+                0x00000000400095e0                PROVIDE (cache_flash_mmu_set_rom, 0x400095e0)
+                0x0000000040009a14                PROVIDE (Cache_Flush_rom, 0x40009a14)
+                0x0000000040009ab8                PROVIDE (Cache_Read_Disable_rom, 0x40009ab8)
+                0x0000000040009a84                PROVIDE (Cache_Read_Enable_rom, 0x40009a84)
+                [!provide]                        PROVIDE (Cache_Read_Init_rom, 0x40009950)
+                [!provide]                        PROVIDE (cache_sram_mmu_set_rom, 0x400097f4)
                 [!provide]                        PROVIDE (calc_rtc_memory_crc, 0x40008170)
                 [!provide]                        PROVIDE (calloc, 0x4000bee4)
                 [!provide]                        PROVIDE (_calloc_r, 0x4000bbf8)
-                [!provide]                        PROVIDE (check_pos, 0x400068b8)
                 [!provide]                        PROVIDE (_cleanup, 0x40001df8)
                 [!provide]                        PROVIDE (_cleanup_r, 0x40001d48)
                 [!provide]                        PROVIDE (__clear_cache, 0x40063860)
@@ -526,7 +862,6 @@ END GROUP
                 [!provide]                        PROVIDE (DebugE256PublicKey_x, 0x3ff97428)
                 [!provide]                        PROVIDE (DebugE256PublicKey_y, 0x3ff97408)
                 [!provide]                        PROVIDE (DebugE256SecretKey, 0x3ff973e8)
-                [!provide]                        PROVIDE (_DebugExceptionVector, 0x40000280)
                 [!provide]                        PROVIDE (debug_timer, 0x3ffe042c)
                 [!provide]                        PROVIDE (debug_timerfn, 0x3ffe0430)
                 [!provide]                        PROVIDE (dh_group14_generator, 0x3ff9ac60)
@@ -552,8 +887,7 @@ END GROUP
                 [!provide]                        PROVIDE (__divsc3, 0x40064200)
                 [!provide]                        PROVIDE (__divsf3, 0x4000234c)
                 [!provide]                        PROVIDE (__divsi3, 0x4000c7b8)
-                [!provide]                        PROVIDE (_DoubleExceptionVector, 0x400003c0)
-                [!provide]                        PROVIDE (dummy_len_plus, 0x3ffae290)
+                0x000000003ffae290                PROVIDE (g_rom_spiflash_dummy_len_plus, 0x3ffae290)
                 [!provide]                        PROVIDE (__dummy_lock, 0x4000c728)
                 [!provide]                        PROVIDE (__dummy_lock_try, 0x4000c730)
                 [!provide]                        PROVIDE (ecc_env, 0x3ffb8d60)
@@ -566,69 +900,8 @@ END GROUP
                 [!provide]                        PROVIDE (__eqsf2, 0x40063374)
                 [!provide]                        PROVIDE (esp_crc8, 0x4005d144)
                 [!provide]                        PROVIDE (_etext, 0x4000d66c)
-                [!provide]                        PROVIDE (ets_aes_crypt, 0x4005c9b8)
-                [!provide]                        PROVIDE (ets_aes_disable, 0x4005c8f8)
-                [!provide]                        PROVIDE (ets_aes_enable, 0x4005c8cc)
-                [!provide]                        PROVIDE (ets_aes_set_endian, 0x4005c928)
-                [!provide]                        PROVIDE (ets_aes_setkey_dec, 0x4005c994)
-                [!provide]                        PROVIDE (ets_aes_setkey_enc, 0x4005c97c)
-                [!provide]                        PROVIDE (ets_bigint_disable, 0x4005c4e0)
-                [!provide]                        PROVIDE (ets_bigint_enable, 0x4005c498)
-                [!provide]                        PROVIDE (ets_bigint_mod_mult_getz, 0x4005c818)
-                [!provide]                        PROVIDE (ets_bigint_mod_mult_prepare, 0x4005c7b4)
-                [!provide]                        PROVIDE (ets_bigint_mod_power_getz, 0x4005c614)
-                [!provide]                        PROVIDE (ets_bigint_mod_power_prepare, 0x4005c54c)
-                [!provide]                        PROVIDE (ets_bigint_montgomery_mult_getz, 0x4005c7a4)
-                [!provide]                        PROVIDE (ets_bigint_montgomery_mult_prepare, 0x4005c6fc)
-                [!provide]                        PROVIDE (ets_bigint_mult_getz, 0x4005c6e8)
-                [!provide]                        PROVIDE (ets_bigint_mult_prepare, 0x4005c630)
-                [!provide]                        PROVIDE (ets_bigint_wait_finish, 0x4005c520)
-                0x0000000040008534                PROVIDE (ets_delay_us, 0x40008534)
-                [!provide]                        PROVIDE (ets_efuse_get_8M_clock, 0x40008710)
-                [!provide]                        PROVIDE (ets_efuse_get_spiconfig, 0x40008658)
-                [!provide]                        PROVIDE (ets_efuse_program_op, 0x40008628)
-                [!provide]                        PROVIDE (ets_efuse_read_op, 0x40008600)
-                [!provide]                        PROVIDE (ets_get_cpu_frequency, 0x4000855c)
-                [!provide]                        PROVIDE (ets_get_detected_xtal_freq, 0x40008588)
-                [!provide]                        PROVIDE (ets_get_xtal_scale, 0x4000856c)
-                [!provide]                        PROVIDE (ets_install_putc1, 0x40007d18)
-                [!provide]                        PROVIDE (ets_install_putc2, 0x40007d38)
-                0x0000000040007d28                PROVIDE (ets_install_uart_printf, 0x40007d28)
-                [!provide]                        PROVIDE (ets_post, 0x4000673c)
-                0x0000000040007d54                PROVIDE (ets_printf, 0x40007d54)
                 [!provide]                        PROVIDE (ets_readySet_, 0x3ffe01f0)
-                [!provide]                        PROVIDE (ets_run, 0x400066bc)
-                [!provide]                        PROVIDE (ets_secure_boot_check, 0x4005cb40)
-                [!provide]                        PROVIDE (ets_secure_boot_check_finish, 0x4005cc04)
-                [!provide]                        PROVIDE (ets_secure_boot_check_start, 0x4005cbcc)
-                [!provide]                        PROVIDE (ets_secure_boot_finish, 0x4005ca84)
-                [!provide]                        PROVIDE (ets_secure_boot_hash, 0x4005cad4)
-                [!provide]                        PROVIDE (ets_secure_boot_obtain, 0x4005cb14)
-                [!provide]                        PROVIDE (ets_secure_boot_rd_abstract, 0x4005cba8)
-                [!provide]                        PROVIDE (ets_secure_boot_rd_iv, 0x4005cb84)
-                [!provide]                        PROVIDE (ets_secure_boot_start, 0x4005ca34)
-                [!provide]                        PROVIDE (ets_set_appcpu_boot_addr, 0x4000689c)
-                [!provide]                        PROVIDE (ets_set_idle_cb, 0x40006674)
-                [!provide]                        PROVIDE (ets_set_startup_callback, 0x4000688c)
-                [!provide]                        PROVIDE (ets_set_user_start, 0x4000687c)
-                [!provide]                        PROVIDE (ets_sha_disable, 0x4005c0a8)
-                [!provide]                        PROVIDE (ets_sha_enable, 0x4005c07c)
-                [!provide]                        PROVIDE (ets_sha_finish, 0x4005c104)
-                [!provide]                        PROVIDE (ets_sha_init, 0x4005c0d4)
-                [!provide]                        PROVIDE (ets_sha_update, 0x4005c2a0)
                 [!provide]                        PROVIDE (ets_startup_callback, 0x3ffe0404)
-                [!provide]                        PROVIDE (ets_task, 0x40006688)
-                [!provide]                        PROVIDE (ets_timer_arm, 0x40008368)
-                [!provide]                        PROVIDE (ets_timer_arm_us, 0x400083ac)
-                [!provide]                        PROVIDE (ets_timer_disarm, 0x400083ec)
-                [!provide]                        PROVIDE (ets_timer_done, 0x40008428)
-                [!provide]                        PROVIDE (ets_timer_handler_isr, 0x40008454)
-                [!provide]                        PROVIDE (ets_timer_init, 0x400084e8)
-                [!provide]                        PROVIDE (ets_timer_setfn, 0x40008350)
-                [!provide]                        PROVIDE (ets_unpack_flash_code, 0x40007018)
-                [!provide]                        PROVIDE (ets_unpack_flash_code_legacy, 0x4000694c)
-                [!provide]                        PROVIDE (ets_update_cpu_frequency_rom, 0x40008550)
-                [!provide]                        PROVIDE (ets_waiti0, 0x400067d8)
                 [!provide]                        PROVIDE (exc_cause_table, 0x3ff991d0)
                 [!provide]                        PROVIDE (_exit_r, 0x4000bd28)
                 [!provide]                        PROVIDE (__extendsfdf2, 0x40002c34)
@@ -638,8 +911,6 @@ END GROUP
                 [!provide]                        PROVIDE (_fflush_r, 0x40059320)
                 [!provide]                        PROVIDE (__ffsdi2, 0x4000ca2c)
                 [!provide]                        PROVIDE (__ffssi2, 0x4000c804)
-                [!provide]                        PROVIDE (FilePacketSendDeflatedReqMsgProc, 0x40008b24)
-                [!provide]                        PROVIDE (FilePacketSendReqMsgProc, 0x40008860)
                 [!provide]                        PROVIDE (_findenv_r, 0x40001f44)
                 [!provide]                        PROVIDE (__fixdfdi, 0x40002ac4)
                 [!provide]                        PROVIDE (__fixdfsi, 0x40002a78)
@@ -648,11 +919,6 @@ END GROUP
                 [!provide]                        PROVIDE (__fixunsdfsi, 0x40002b30)
                 [!provide]                        PROVIDE (__fixunssfdi, 0x40002504)
                 [!provide]                        PROVIDE (__fixunssfsi, 0x400024ac)
-                [!provide]                        PROVIDE (FlashDwnLdDeflatedStartMsgProc, 0x40008ad8)
-                [!provide]                        PROVIDE (FlashDwnLdParamCfgMsgProc, 0x4000891c)
-                [!provide]                        PROVIDE (FlashDwnLdStartMsgProc, 0x40008820)
-                [!provide]                        PROVIDE (FlashDwnLdStopDeflatedReqMsgProc, 0x40008c18)
-                [!provide]                        PROVIDE (FlashDwnLdStopReqMsgProc, 0x400088ec)
                 [!provide]                        PROVIDE (__floatdidf, 0x4000c988)
                 [!provide]                        PROVIDE (__floatdisf, 0x4000c8c0)
                 [!provide]                        PROVIDE (__floatsidf, 0x4000c944)
@@ -673,7 +939,6 @@ END GROUP
                 [!provide]                        PROVIDE (_fwalk_reent, 0x4000c770)
                 [!provide]                        PROVIDE (__gcc_bcmp, 0x40064a70)
                 [!provide]                        PROVIDE (__gedf2, 0x40063768)
-                [!provide]                        PROVIDE (_GeneralException, 0x40000e14)
                 [!provide]                        PROVIDE (__gesf2, 0x4006340c)
                 [!provide]                        PROVIDE (__get_current_time_locale, 0x40001834)
                 [!provide]                        PROVIDE (_getenv_r, 0x40001fbc)
@@ -681,7 +946,6 @@ END GROUP
                 [!provide]                        PROVIDE (__getreent, 0x4000be8c)
                 [!provide]                        PROVIDE (_gettimeofday_r, 0x4000bc58)
                 [!provide]                        PROVIDE (__gettzinfo, 0x40001fcc)
-                [!provide]                        PROVIDE (GetUartDevice, 0x40009598)
                 [!provide]                        PROVIDE (GF_Jacobian_Point_Addition256, 0x400163a4)
                 [!provide]                        PROVIDE (GF_Jacobian_Point_Double256, 0x40016260)
                 [!provide]                        PROVIDE (GF_Point_Jacobian_To_Affine256, 0x40016b0c)
@@ -690,31 +954,6 @@ END GROUP
                 [!provide]                        PROVIDE (gmtime_r, 0x40059868)
                 [!provide]                        PROVIDE (g_phyFuns_instance, 0x3ffae0c4)
                 0x000000003ffae270                PROVIDE (g_rom_flashchip, 0x3ffae270)
-                [!provide]                        PROVIDE (gpio_init, 0x40009c20)
-                [!provide]                        PROVIDE (gpio_input_get, 0x40009b88)
-                [!provide]                        PROVIDE (gpio_input_get_high, 0x40009b9c)
-                [!provide]                        PROVIDE (gpio_intr_ack, 0x40009dd4)
-                [!provide]                        PROVIDE (gpio_intr_ack_high, 0x40009e1c)
-                [!provide]                        PROVIDE (gpio_intr_handler_register, 0x40009e6c)
-                [!provide]                        PROVIDE (gpio_intr_pending, 0x40009cec)
-                [!provide]                        PROVIDE (gpio_intr_pending_high, 0x40009cf8)
-                [!provide]                        PROVIDE (gpio_matrix_in, 0x40009edc)
-                [!provide]                        PROVIDE (gpio_matrix_out, 0x40009f0c)
-                [!provide]                        PROVIDE (gpio_output_set, 0x40009b24)
-                [!provide]                        PROVIDE (gpio_output_set_high, 0x40009b5c)
-                [!provide]                        PROVIDE (gpio_pad_hold, 0x4000a734)
-                [!provide]                        PROVIDE (gpio_pad_pulldown, 0x4000a348)
-                [!provide]                        PROVIDE (gpio_pad_pullup, 0x4000a22c)
-                [!provide]                        PROVIDE (gpio_pad_select_gpio, 0x40009fdc)
-                [!provide]                        PROVIDE (gpio_pad_set_drv, 0x4000a11c)
-                [!provide]                        PROVIDE (gpio_pad_unhold, 0x4000a484)
-                [!provide]                        PROVIDE (gpio_pending_mask, 0x3ffe0038)
-                [!provide]                        PROVIDE (gpio_pending_mask_high, 0x3ffe0044)
-                [!provide]                        PROVIDE (gpio_pin_intr_state_set, 0x40009d04)
-                [!provide]                        PROVIDE (gpio_pin_wakeup_disable, 0x40009eb0)
-                [!provide]                        PROVIDE (gpio_pin_wakeup_enable, 0x40009e7c)
-                [!provide]                        PROVIDE (gpio_register_get, 0x40009cbc)
-                [!provide]                        PROVIDE (gpio_register_set, 0x40009bbc)
                 [!provide]                        PROVIDE (__gtdf2, 0x400636dc)
                 [!provide]                        PROVIDE (__gtsf2, 0x400633a0)
                 [!provide]                        PROVIDE (gTxMsg, 0x3ffe0050)
@@ -739,7 +978,6 @@ END GROUP
                 [!provide]                        PROVIDE (hmac_sha1_vector, 0x400609e4)
                 [!provide]                        PROVIDE (hmac_sha256, 0x40060d58)
                 [!provide]                        PROVIDE (hmac_sha256_vector, 0x40060c84)
-                [!provide]                        PROVIDE (intr_matrix_set, 0x4000681c)
                 [!provide]                        PROVIDE (isalnum, 0x40000f04)
                 [!provide]                        PROVIDE (isalpha, 0x40000f18)
                 [!provide]                        PROVIDE (isascii, 0x4000c20c)
@@ -758,7 +996,6 @@ END GROUP
                 [!provide]                        PROVIDE (jd_decomp, 0x400613e8)
                 [!provide]                        PROVIDE (jd_prepare, 0x40060fa8)
                 [!provide]                        PROVIDE (ke_env, 0x3ffb93cc)
-                [!provide]                        PROVIDE (_KernelExceptionVector, 0x40000300)
                 [!provide]                        PROVIDE (_kill_r, 0x4000bd10)
                 [!provide]                        PROVIDE (labs, 0x40056370)
                 [!provide]                        PROVIDE (lb_default_handler, 0x3ff982b8)
@@ -782,15 +1019,6 @@ END GROUP
                 [!provide]                        PROVIDE (ld_sync_train_channels, 0x3ff98a3c)
                 [!provide]                        PROVIDE (__ledf2, 0x40063704)
                 [!provide]                        PROVIDE (__lesf2, 0x400633c0)
-                [!provide]                        PROVIDE (_Level2FromVector, 0x40000954)
-                [!provide]                        PROVIDE (_Level2Vector, 0x40000180)
-                [!provide]                        PROVIDE (_Level3FromVector, 0x40000a28)
-                [!provide]                        PROVIDE (_Level3Vector, 0x400001c0)
-                [!provide]                        PROVIDE (_Level4FromVector, 0x40000af8)
-                [!provide]                        PROVIDE (_Level4Vector, 0x40000200)
-                [!provide]                        PROVIDE (_Level5FromVector, 0x40000c68)
-                [!provide]                        PROVIDE (_Level5Vector, 0x40000240)
-                [!provide]                        PROVIDE (_LevelOneInterrupt, 0x40000835)
                 [!provide]                        PROVIDE (_link_r, 0x4000bc9c)
                 [!provide]                        PROVIDE (llc_default_handler, 0x3ff98b3c)
                 [!provide]                        PROVIDE (llc_default_state_tab_p_get, 0x40046058)
@@ -861,10 +1089,7 @@ END GROUP
                 [!provide]                        PROVIDE (memchr, 0x4000c244)
                 [!provide]                        PROVIDE (memcmp, 0x4000c260)
                 0x000000004000c2c8                PROVIDE (memcpy, 0x4000c2c8)
-                [!provide]                        PROVIDE (MemDwnLdStartMsgProc, 0x40008948)
-                [!provide]                        PROVIDE (MemDwnLdStopReqMsgProc, 0x400089dc)
                 [!provide]                        PROVIDE (memmove, 0x4000c3c0)
-                [!provide]                        PROVIDE (MemPacketSendReqMsgProc, 0x40008978)
                 [!provide]                        PROVIDE (memrchr, 0x4000c400)
                 0x000000004000c44c                PROVIDE (memset, 0x4000c44c)
                 [!provide]                        PROVIDE (mktime, 0x4005a5e8)
@@ -894,7 +1119,6 @@ END GROUP
                 [!provide]                        PROVIDE (__negvdi2, 0x40002e98)
                 [!provide]                        PROVIDE (__negvsi2, 0x40002e78)
                 [!provide]                        PROVIDE (__nesf2, 0x40063374)
-                [!provide]                        PROVIDE (_NMIExceptionVector, 0x400002c0)
                 [!provide]                        PROVIDE (notEqual256, 0x40015b04)
                 [!provide]                        PROVIDE (__nsau_data, 0x3ff96544)
                 [!provide]                        PROVIDE (one_bits, 0x3ff971f8)
@@ -946,7 +1170,6 @@ END GROUP
                 [!provide]                        PROVIDE (r_co_list_size, 0x400142ac)
                 [!provide]                        PROVIDE (r_co_nb_good_channels, 0x40014360)
                 [!provide]                        PROVIDE (r_co_slot_to_duration, 0x40014348)
-                [!provide]                        PROVIDE (RcvMsg, 0x4000954c)
                 [!provide]                        PROVIDE (r_dbg_init, 0x40014394)
                 [!provide]                        PROVIDE (r_dbg_platform_reset_complete, 0x400143d0)
                 [!provide]                        PROVIDE (r_dbg_swdiag_init, 0x40014470)
@@ -985,15 +1208,12 @@ END GROUP
                 [!provide]                        PROVIDE (r_ecc_get_debug_Keys, 0x40017224)
                 [!provide]                        PROVIDE (r_ecc_init, 0x40016dbc)
                 [!provide]                        PROVIDE (RecvBuff, 0x3ffe009c)
-                [!provide]                        PROVIDE (recv_packet, 0x40009424)
                 [!provide]                        PROVIDE (r_em_buf_init, 0x4001729c)
                 [!provide]                        PROVIDE (r_em_buf_rx_buff_addr_get, 0x400173e8)
                 [!provide]                        PROVIDE (r_em_buf_rx_free, 0x400173c4)
                 [!provide]                        PROVIDE (r_em_buf_tx_buff_addr_get, 0x40017404)
                 [!provide]                        PROVIDE (r_em_buf_tx_free, 0x4001741c)
                 [!provide]                        PROVIDE (_rename_r, 0x4000bc28)
-                [!provide]                        PROVIDE (_ResetHandler, 0x40000450)
-                [!provide]                        PROVIDE (_ResetVector, 0x40000400)
                 [!provide]                        PROVIDE (r_F1_256, 0x400133e4)
                 [!provide]                        PROVIDE (r_F2_256, 0x40013568)
                 [!provide]                        PROVIDE (r_F3_256, 0x40013664)
@@ -1285,6 +1505,94 @@ END GROUP
                 [!provide]                        PROVIDE (r_lc_util_get_offset_clkn, 0x4002f51c)
                 [!provide]                        PROVIDE (r_lc_util_set_loc_trans_coll, 0x4002f500)
                 [!provide]                        PROVIDE (r_lc_version, 0x40020a30)
+                [!provide]                        PROVIDE (lmp_accepted_ext_handler, 0x40027290)
+                [!provide]                        PROVIDE (lmp_not_accepted_ext_handler, 0x40029c54)
+                [!provide]                        PROVIDE (lmp_clk_adj_handler, 0x40027468)
+                [!provide]                        PROVIDE (lmp_clk_adj_ack_handler, 0x400274f4)
+                [!provide]                        PROVIDE (lmp_clk_adj_req_handler, 0x4002751c)
+                [!provide]                        PROVIDE (lmp_feats_res_ext_handler, 0x4002cac4)
+                [!provide]                        PROVIDE (lmp_feats_req_ext_handler, 0x4002ccb0)
+                [!provide]                        PROVIDE (lmp_pkt_type_tbl_req_handler, 0x40027574)
+                [!provide]                        PROVIDE (lmp_esco_link_req_handler, 0x40027610)
+                [!provide]                        PROVIDE (lmp_rmv_esco_link_req_handler, 0x400276e8)
+                [!provide]                        PROVIDE (lmp_ch_class_req_handler, 0x40027730)
+                [!provide]                        PROVIDE (lmp_ch_class_handler, 0x4002ca18)
+                [!provide]                        PROVIDE (lmp_ssr_req_handler, 0x4002780c)
+                [!provide]                        PROVIDE (lmp_ssr_res_handler, 0x40027900)
+                [!provide]                        PROVIDE (lmp_pause_enc_aes_req_handler, 0x400279a4)
+                [!provide]                        PROVIDE (lmp_pause_enc_req_handler, 0x4002df90)
+                [!provide]                        PROVIDE (lmp_resume_enc_req_handler, 0x4002e084)
+                [!provide]                        PROVIDE (lmp_num_comparison_fail_handler, 0x40027a74)
+                [!provide]                        PROVIDE (lmp_passkey_fail_handler, 0x40027aec)
+                [!provide]                        PROVIDE (lmp_keypress_notif_handler, 0x4002c5c8)
+                [!provide]                        PROVIDE (lmp_pwr_ctrl_req_handler, 0x400263bc)
+                [!provide]                        PROVIDE (lmp_pwr_ctrl_res_handler, 0x40026480)
+                [!provide]                        PROVIDE (lmp_auto_rate_handler, 0x40026548)
+                [!provide]                        PROVIDE (lmp_pref_rate_handler, 0x4002657c)
+                [!provide]                        PROVIDE (lmp_name_req_handler, 0x40025050)
+                [!provide]                        PROVIDE (lmp_name_res_handler, 0x400250bc)
+                [!provide]                        PROVIDE (lmp_not_accepted_handler, 0x400251d0)
+                [!provide]                        PROVIDE (lmp_accepted_handler, 0x4002e894)
+                [!provide]                        PROVIDE (lmp_clk_off_req_handler, 0x40025a44)
+                [!provide]                        PROVIDE (lmp_clk_off_res_handler, 0x40025ab8)
+                [!provide]                        PROVIDE (lmp_detach_handler, 0x40025b74)
+                [!provide]                        PROVIDE (lmp_tempkey_handler, 0x4002b6b0)
+                [!provide]                        PROVIDE (lmp_temprand_handler, 0x4002b74c)
+                [!provide]                        PROVIDE (lmp_sres_handler, 0x4002b840)
+                [!provide]                        PROVIDE (lmp_aurand_handler, 0x4002bda0)
+                [!provide]                        PROVIDE (lmp_unitkey_handler, 0x4002c13c)
+                [!provide]                        PROVIDE (lmp_combkey_handler, 0x4002c234)
+                [!provide]                        PROVIDE (lmp_inrand_handler, 0x4002c414)
+                [!provide]                        PROVIDE (lmp_oob_fail_handler, 0x40027b84)
+                [!provide]                        PROVIDE (lmp_ping_req_handler, 0x40027c08)
+                [!provide]                        PROVIDE (lmp_ping_res_handler, 0x40027c5c)
+                [!provide]                        PROVIDE (lmp_enc_mode_req_handler, 0x40025c60)
+                [!provide]                        PROVIDE (lmp_enc_key_size_req_handler, 0x40025e54)
+                [!provide]                        PROVIDE (lmp_switch_req_handler, 0x40025f84)
+                [!provide]                        PROVIDE (lmp_start_enc_req_handler, 0x4002e124)
+                [!provide]                        PROVIDE (lmp_stop_enc_req_handler, 0x4002de30)
+                [!provide]                        PROVIDE (lmp_sniff_req_handler, 0x400260c8)
+                [!provide]                        PROVIDE (lmp_unsniff_req_handler, 0x400261e0)
+                [!provide]                        PROVIDE (lmp_incr_pwr_req_handler, 0x4002629c)
+                [!provide]                        PROVIDE (lmp_decr_pwr_req_handler, 0x400262f8)
+                [!provide]                        PROVIDE (lmp_max_pwr_handler, 0x40026354)
+                [!provide]                        PROVIDE (lmp_min_pwr_handler, 0x40026388)
+                [!provide]                        PROVIDE (lmp_ver_req_handler, 0x400265f0)
+                [!provide]                        PROVIDE (lmp_ver_res_handler, 0x40026670)
+                [!provide]                        PROVIDE (lmp_qos_handler, 0x40026790)
+                [!provide]                        PROVIDE (lmp_qos_req_handler, 0x40026844)
+                [!provide]                        PROVIDE (lmp_sco_link_req_handler, 0x40026930)
+                [!provide]                        PROVIDE (lmp_rmv_sco_link_req_handler, 0x40026a10)
+                [!provide]                        PROVIDE (lmp_max_slot_handler, 0x40026a54)
+                [!provide]                        PROVIDE (lmp_max_slot_req_handler, 0x40026aac)
+                [!provide]                        PROVIDE (lmp_timing_accu_req_handler, 0x40026b54)
+                [!provide]                        PROVIDE (lmp_timing_accu_res_handler, 0x40026bcc)
+                [!provide]                        PROVIDE (lmp_setup_cmp_handler, 0x40026c84)
+                [!provide]                        PROVIDE (lmp_feats_res_handler, 0x4002b548)
+                [!provide]                        PROVIDE (lmp_feats_req_handler, 0x4002b620)
+                [!provide]                        PROVIDE (lmp_host_con_req_handler, 0x4002b3d8)
+                [!provide]                        PROVIDE (lmp_use_semi_perm_key_handler, 0x4002b4c4)
+                [!provide]                        PROVIDE (lmp_slot_off_handler, 0x40026cc8)
+                [!provide]                        PROVIDE (lmp_page_mode_req_handler, 0x40026d0c)
+                [!provide]                        PROVIDE (lmp_page_scan_mode_req_handler, 0x40026d4c)
+                [!provide]                        PROVIDE (lmp_supv_to_handler, 0x40026d94)
+                [!provide]                        PROVIDE (lmp_test_activate_handler, 0x40026e7c)
+                [!provide]                        PROVIDE (lmp_test_ctrl_handler, 0x40026ee4)
+                [!provide]                        PROVIDE (lmp_enc_key_size_mask_req_handler, 0x40027038)
+                [!provide]                        PROVIDE (lmp_enc_key_size_mask_res_handler, 0x400270a4)
+                [!provide]                        PROVIDE (lmp_set_afh_handler, 0x4002b2e4)
+                [!provide]                        PROVIDE (lmp_encaps_hdr_handler, 0x40027120)
+                [!provide]                        PROVIDE (lmp_encaps_payl_handler, 0x4002e590)
+                [!provide]                        PROVIDE (lmp_sp_nb_handler, 0x4002acf0)
+                [!provide]                        PROVIDE (lmp_sp_cfm_handler, 0x4002b170)
+                [!provide]                        PROVIDE (lmp_dhkey_chk_handler, 0x4002ab48)
+                [!provide]                        PROVIDE (lmp_pause_enc_aes_req_handler, 0x400279a4)
+                [!provide]                        PROVIDE (lmp_io_cap_res_handler, 0x4002c670)
+                [!provide]                        PROVIDE (lmp_io_cap_req_handler, 0x4002c7a4)
+                [!provide]                        PROVIDE (ld_acl_tx_packet_type_select, 0x4002fb40)
+                [!provide]                        PROVIDE (ld_acl_sched, 0x40033268)
+                [!provide]                        PROVIDE (ld_acl_sniff_sched, 0x4003340c)
+                [!provide]                        PROVIDE (lm_cmd_cmp_send, 0x40051838)
                 [!provide]                        PROVIDE (r_ld_acl_active_hop_types_get, 0x40036e10)
                 [!provide]                        PROVIDE (r_ld_acl_afh_confirm, 0x40036d40)
                 [!provide]                        PROVIDE (r_ld_acl_afh_prepare, 0x40036c84)
@@ -1704,6 +2012,13 @@ END GROUP
                 [!provide]                        PROVIDE (r_lm_oob_f1, 0x40012e54)
                 [!provide]                        PROVIDE (r_lm_pca_sscan_link_get, 0x4004f560)
                 [!provide]                        PROVIDE (r_lm_pca_sscan_link_set, 0x4004f550)
+                [!provide]                        PROVIDE (nvds_null_read, 0x400542a0)
+                [!provide]                        PROVIDE (nvds_null_write, 0x400542a8)
+                [!provide]                        PROVIDE (nvds_null_erase, 0x400542b0)
+                [!provide]                        PROVIDE (nvds_read, 0x400542c4)
+                [!provide]                        PROVIDE (nvds_write, 0x400542fc)
+                [!provide]                        PROVIDE (nvds_erase, 0x40054334)
+                [!provide]                        PROVIDE (nvds_init_memory, 0x40054358)
                 [!provide]                        PROVIDE (r_lmp_pack, 0x4001135c)
                 [!provide]                        PROVIDE (r_lmp_unpack, 0x4001149c)
                 [!provide]                        PROVIDE (r_lm_read_features, 0x4004f0d8)
@@ -1776,7 +2091,6 @@ END GROUP
                 [!provide]                        PROVIDE (rom_iq_est_enable, 0x40005514)
                 [!provide]                        PROVIDE (rom_linear_to_db, 0x40005f64)
                 [!provide]                        PROVIDE (rom_loopback_mode_en, 0x400030f8)
-                [!provide]                        PROVIDE (rom_main, 0x400076c4)
                 [!provide]                        PROVIDE (rom_meas_tone_pwr_db, 0x40006004)
                 [!provide]                        PROVIDE (rom_mhz2ieee, 0x4000404c)
                 [!provide]                        PROVIDE (rom_noise_floor_auto_set, 0x40003bdc)
@@ -1883,10 +2197,6 @@ END GROUP
                 [!provide]                        PROVIDE (r_rwip_wakeup_end, 0x40055e18)
                 [!provide]                        PROVIDE (r_rwip_wlcoex_set, 0x40055f60)
                 [!provide]                        PROVIDE (r_SHA_256, 0x40013a90)
-                [!provide]                        PROVIDE (rtc_boot_control, 0x4000821c)
-                0x00000000400081d4                PROVIDE (rtc_get_reset_reason, 0x400081d4)
-                [!provide]                        PROVIDE (rtc_get_wakeup_cause, 0x400081f4)
-                [!provide]                        PROVIDE (rtc_select_apb_bridge, 0x40008288)
                 [!provide]                        PROVIDE (rwip_coex_cfg, 0x3ff9914c)
                 [!provide]                        PROVIDE (rwip_priority, 0x3ff99159)
                 [!provide]                        PROVIDE (rwip_rf, 0x3ffbdb28)
@@ -1896,16 +2206,10 @@ END GROUP
                 [!provide]                        PROVIDE (_sbrk_r, 0x4000bce4)
                 [!provide]                        PROVIDE (__sccl, 0x4000c498)
                 [!provide]                        PROVIDE (__sclose, 0x400011b8)
-                [!provide]                        PROVIDE (SelectSpiFunction, 0x40061f84)
-                [!provide]                        PROVIDE (SelectSpiQIO, 0x40061ddc)
-                [!provide]                        PROVIDE (SendMsg, 0x40009384)
-                [!provide]                        PROVIDE (send_packet, 0x40009340)
                 [!provide]                        PROVIDE (__seofread, 0x40001148)
                 [!provide]                        PROVIDE (setjmp, 0x40056268)
                 [!provide]                        PROVIDE (setlocale, 0x40059568)
                 [!provide]                        PROVIDE (_setlocale_r, 0x4005950c)
-                [!provide]                        PROVIDE (set_rtc_memory_crc, 0x40008208)
-                [!provide]                        PROVIDE (SetSpiDrvs, 0x40061e78)
                 [!provide]                        PROVIDE (__sf_fake_stderr, 0x3ff96458)
                 [!provide]                        PROVIDE (__sf_fake_stdin, 0x3ff96498)
                 [!provide]                        PROVIDE (__sf_fake_stdout, 0x3ff96478)
@@ -1953,35 +2257,7 @@ END GROUP
                 [!provide]                        PROVIDE (slc_set_host_io_max_window, 0x4000b89c)
                 [!provide]                        PROVIDE (slc_to_host_chain_recycle, 0x4000b758)
                 [!provide]                        PROVIDE (__smakebuf_r, 0x40059108)
-                [!provide]                        PROVIDE (software_reset, 0x4000824c)
-                [!provide]                        PROVIDE (software_reset_cpu, 0x40008264)
                 [!provide]                        PROVIDE (specialModP256, 0x4001600c)
-                [!provide]                        PROVIDE (spi_cache_sram_init, 0x400626e4)
-                [!provide]                        PROVIDE (SPIClkConfig, 0x40062bc8)
-                [!provide]                        PROVIDE (SPI_Common_Command, 0x4006246c)
-                [!provide]                        PROVIDE (spi_dummy_len_fix, 0x40061d90)
-                0x0000000040062e78                PROVIDE (SPI_Encrypt_Write, 0x40062e78)
-                [!provide]                        PROVIDE (SPIEraseArea, 0x400631ac)
-                [!provide]                        PROVIDE (SPIEraseBlock, 0x40062c4c)
-                [!provide]                        PROVIDE (SPIEraseChip, 0x40062c14)
-                0x0000000040062ccc                PROVIDE (SPIEraseSector, 0x40062ccc)
-                [!provide]                        PROVIDE (spi_flash_attach, 0x40062a6c)
-                [!provide]                        PROVIDE (SPILock, 0x400628f0)
-                [!provide]                        PROVIDE (SPIMasterReadModeCnfig, 0x40062b64)
-                [!provide]                        PROVIDE (spi_modes, 0x3ff99270)
-                0x0000000040063238                PROVIDE (SPIParamCfg, 0x40063238)
-                [!provide]                        PROVIDE (SPI_Prepare_Encrypt_Data, 0x40062e1c)
-                0x0000000040062ed8                PROVIDE (SPIRead, 0x40062ed8)
-                [!provide]                        PROVIDE (SPIReadModeCnfig, 0x40062944)
-                [!provide]                        PROVIDE (SPI_read_status, 0x4006226c)
-                0x0000000040062448                PROVIDE (SPI_read_status_high, 0x40062448)
-                [!provide]                        PROVIDE (SPI_user_command_read, 0x400621b0)
-                0x000000003ffae270                PROVIDE (SPI_flashchip_data, 0x3ffae270)
-                0x0000000040062d50                PROVIDE (SPIWrite, 0x40062d50)
-                [!provide]                        PROVIDE (SPI_write_enable, 0x40062320)
-                [!provide]                        PROVIDE (SPI_Write_Encrypt_Disable, 0x40062e60)
-                [!provide]                        PROVIDE (SPI_Write_Encrypt_Enable, 0x40062df4)
-                0x00000000400622f0                PROVIDE (SPI_write_status, 0x400622f0)
                 [!provide]                        PROVIDE (srand, 0x40001004)
                 [!provide]                        PROVIDE (__sread, 0x40001118)
                 [!provide]                        PROVIDE (__srefill_r, 0x400593d4)
@@ -2046,7 +2322,6 @@ END GROUP
                 [!provide]                        PROVIDE (__swrite, 0x40001150)
                 [!provide]                        PROVIDE (__swsetup_r, 0x40058cc8)
                 [!provide]                        PROVIDE (sw_to_hw, 0x3ffb8d40)
-                [!provide]                        PROVIDE (_SyscallException, 0x400007cf)
                 [!provide]                        PROVIDE (syscall_table_ptr_app, 0x3ffae020)
                 [!provide]                        PROVIDE (syscall_table_ptr_pro, 0x3ffae024)
                 [!provide]                        PROVIDE (_system_r, 0x4000bc10)
@@ -2077,31 +2352,7 @@ END GROUP
                 [!provide]                        PROVIDE (tzset, 0x40001a1c)
                 [!provide]                        PROVIDE (_tzset_r, 0x40001a28)
                 [!provide]                        PROVIDE (__tz_unlock, 0x40001a10)
-                0x0000000040008fd0                PROVIDE (uartAttach, 0x40008fd0)
-                [!provide]                        PROVIDE (uart_baudrate_detect, 0x40009034)
-                [!provide]                        PROVIDE (uart_buff_switch, 0x400093c0)
-                [!provide]                        PROVIDE (UartConnCheck, 0x40008738)
-                [!provide]                        PROVIDE (UartConnectProc, 0x40008a04)
                 [!provide]                        PROVIDE (UartDev, 0x3ffe019c)
-                0x00000000400090cc                PROVIDE (uart_div_modify, 0x400090cc)
-                [!provide]                        PROVIDE (UartDwnLdProc, 0x40008ce8)
-                [!provide]                        PROVIDE (UartGetCmdLn, 0x40009564)
-                [!provide]                        PROVIDE (Uart_Init, 0x40009120)
-                [!provide]                        PROVIDE (UartRegReadProc, 0x40008a58)
-                [!provide]                        PROVIDE (UartRegWriteProc, 0x40008a14)
-                [!provide]                        PROVIDE (uart_rx_intr_handler, 0x40008f4c)
-                [!provide]                        PROVIDE (uart_rx_one_char, 0x400092d0)
-                [!provide]                        PROVIDE (uart_rx_one_char_block, 0x400092a4)
-                [!provide]                        PROVIDE (uart_rx_readbuff, 0x40009394)
-                [!provide]                        PROVIDE (UartRxString, 0x400092fc)
-                [!provide]                        PROVIDE (UartSetBaudProc, 0x40008aac)
-                [!provide]                        PROVIDE (UartSpiAttachProc, 0x40008a6c)
-                [!provide]                        PROVIDE (UartSpiReadProc, 0x40008a80)
-                [!provide]                        PROVIDE (uart_tx_flush, 0x40009258)
-                [!provide]                        PROVIDE (uart_tx_one_char, 0x40009200)
-                [!provide]                        PROVIDE (uart_tx_one_char2, 0x4000922c)
-                [!provide]                        PROVIDE (uart_tx_switch, 0x40009028)
-                0x0000000040009278                PROVIDE (uart_tx_wait_idle, 0x40009278)
                 [!provide]                        PROVIDE (__ucmpdi2, 0x40063840)
                 [!provide]                        PROVIDE (__udivdi3, 0x4000cff8)
                 [!provide]                        PROVIDE (__udivmoddi4, 0x40064ab0)
@@ -2116,21 +2367,13 @@ END GROUP
                 [!provide]                        PROVIDE (__unorddf2, 0x400637f4)
                 [!provide]                        PROVIDE (__unordsf2, 0x40063478)
                 [!provide]                        PROVIDE (user_code_start, 0x3ffe0400)
-                [!provide]                        PROVIDE (_UserExceptionVector, 0x40000340)
                 [!provide]                        PROVIDE (utoa, 0x40056258)
                 [!provide]                        PROVIDE (__utoa, 0x400561f0)
-                [!provide]                        PROVIDE (VerifyFlashMd5Proc, 0x40008c44)
                 [!provide]                        PROVIDE (veryBigHexP256, 0x3ff9736c)
                 [!provide]                        PROVIDE (wcrtomb, 0x40058920)
                 [!provide]                        PROVIDE (_wcrtomb_r, 0x400588d8)
                 [!provide]                        PROVIDE (__wctomb, 0x3ff96540)
                 [!provide]                        PROVIDE (_wctomb_r, 0x40058f14)
-                [!provide]                        PROVIDE (_WindowOverflow12, 0x40000100)
-                [!provide]                        PROVIDE (_WindowOverflow4, 0x40000000)
-                [!provide]                        PROVIDE (_WindowOverflow8, 0x40000080)
-                [!provide]                        PROVIDE (_WindowUnderflow12, 0x40000140)
-                [!provide]                        PROVIDE (_WindowUnderflow4, 0x40000040)
-                [!provide]                        PROVIDE (_WindowUnderflow8, 0x400000c0)
                 [!provide]                        PROVIDE (write, 0x4000181c)
                 [!provide]                        PROVIDE (_write_r, 0x4000bd70)
                 [!provide]                        PROVIDE (xthal_bcopy, 0x4000c098)
@@ -2146,6 +2389,145 @@ END GROUP
                 [!provide]                        PROVIDE (_xtos_set_intlevel, 0x4000bfdc)
                 [!provide]                        PROVIDE (g_ticks_per_us_pro, 0x3ffe01e0)
                 [!provide]                        PROVIDE (g_ticks_per_us_app, 0x3ffe40f0)
+                0x0000000040063238                PROVIDE (esp_rom_spiflash_config_param, 0x40063238)
+                0x00000000400621b0                PROVIDE (esp_rom_spiflash_read_user_cmd, 0x400621b0)
+                0x0000000040062e60                PROVIDE (esp_rom_spiflash_write_encrypted_disable, 0x40062e60)
+                0x0000000040062df4                PROVIDE (esp_rom_spiflash_write_encrypted_enable, 0x40062df4)
+                0x0000000040062e1c                PROVIDE (esp_rom_spiflash_prepare_encrypted_data, 0x40062e1c)
+                [!provide]                        PROVIDE (esp_rom_spiflash_select_qio_pins, 0x40061ddc)
+                [!provide]                        PROVIDE (esp_rom_spiflash_attach, 0x40062a6c)
+                [!provide]                        PROVIDE (esp_rom_spiflash_config_clk, 0x40062bc8)
+                0x000000003ffae270                PROVIDE (g_rom_spiflash_chip, 0x3ffae270)
+                [!provide]                        PROVIDE (FilePacketSendDeflatedReqMsgProc, 0x40008b24)
+                [!provide]                        PROVIDE (FilePacketSendReqMsgProc, 0x40008860)
+                [!provide]                        PROVIDE (FlashDwnLdDeflatedStartMsgProc, 0x40008ad8)
+                [!provide]                        PROVIDE (FlashDwnLdParamCfgMsgProc, 0x4000891c)
+                [!provide]                        PROVIDE (FlashDwnLdStartMsgProc, 0x40008820)
+                [!provide]                        PROVIDE (FlashDwnLdStopDeflatedReqMsgProc, 0x40008c18)
+                [!provide]                        PROVIDE (FlashDwnLdStopReqMsgProc, 0x400088ec)
+                [!provide]                        PROVIDE (MemDwnLdStartMsgProc, 0x40008948)
+                [!provide]                        PROVIDE (MemDwnLdStopReqMsgProc, 0x400089dc)
+                [!provide]                        PROVIDE (MemPacketSendReqMsgProc, 0x40008978)
+                [!provide]                        PROVIDE (uart_baudrate_detect, 0x40009034)
+                [!provide]                        PROVIDE (uart_buff_switch, 0x400093c0)
+                [!provide]                        PROVIDE (UartConnCheck, 0x40008738)
+                [!provide]                        PROVIDE (UartConnectProc, 0x40008a04)
+                [!provide]                        PROVIDE (UartDwnLdProc, 0x40008ce8)
+                [!provide]                        PROVIDE (UartRegReadProc, 0x40008a58)
+                [!provide]                        PROVIDE (UartRegWriteProc, 0x40008a14)
+                [!provide]                        PROVIDE (UartSetBaudProc, 0x40008aac)
+                [!provide]                        PROVIDE (UartSpiAttachProc, 0x40008a6c)
+                [!provide]                        PROVIDE (UartSpiReadProc, 0x40008a80)
+                [!provide]                        PROVIDE (VerifyFlashMd5Proc, 0x40008c44)
+                [!provide]                        PROVIDE (GetUartDevice, 0x40009598)
+                [!provide]                        PROVIDE (RcvMsg, 0x4000954c)
+                [!provide]                        PROVIDE (SendMsg, 0x40009384)
+                [!provide]                        PROVIDE (UartGetCmdLn, 0x40009564)
+                [!provide]                        PROVIDE (UartRxString, 0x400092fc)
+                [!provide]                        PROVIDE (Uart_Init, 0x40009120)
+                [!provide]                        PROVIDE (recv_packet, 0x40009424)
+                [!provide]                        PROVIDE (send_packet, 0x40009340)
+                0x0000000040008fd0                PROVIDE (uartAttach, 0x40008fd0)
+                0x00000000400090cc                PROVIDE (uart_div_modify, 0x400090cc)
+                [!provide]                        PROVIDE (uart_rx_intr_handler, 0x40008f4c)
+                [!provide]                        PROVIDE (uart_rx_one_char, 0x400092d0)
+                [!provide]                        PROVIDE (uart_rx_one_char_block, 0x400092a4)
+                [!provide]                        PROVIDE (uart_rx_readbuff, 0x40009394)
+                [!provide]                        PROVIDE (uart_tx_flush, 0x40009258)
+                [!provide]                        PROVIDE (uart_tx_one_char, 0x40009200)
+                [!provide]                        PROVIDE (uart_tx_one_char2, 0x4000922c)
+                [!provide]                        PROVIDE (uart_tx_switch, 0x40009028)
+                [!provide]                        PROVIDE (uart_tx_wait_idle, 0x40009278)
+                [!provide]                        PROVIDE (gpio_output_set, 0x40009b24)
+                [!provide]                        PROVIDE (gpio_output_set_high, 0x40009b5c)
+                [!provide]                        PROVIDE (gpio_input_get, 0x40009b88)
+                [!provide]                        PROVIDE (gpio_input_get_high, 0x40009b9c)
+                [!provide]                        PROVIDE (gpio_matrix_in, 0x40009edc)
+                [!provide]                        PROVIDE (gpio_matrix_out, 0x40009f0c)
+                [!provide]                        PROVIDE (gpio_pad_select_gpio, 0x40009fdc)
+                [!provide]                        PROVIDE (gpio_pad_set_drv, 0x4000a11c)
+                [!provide]                        PROVIDE (gpio_pad_pulldown, 0x4000a348)
+                [!provide]                        PROVIDE (gpio_pad_pullup, 0x4000a22c)
+                [!provide]                        PROVIDE (gpio_pad_hold, 0x4000a734)
+                [!provide]                        PROVIDE (gpio_pad_unhold, 0x4000a484)
+                [!provide]                        PROVIDE (ets_aes_crypt, 0x4005c9b8)
+                [!provide]                        PROVIDE (ets_aes_disable, 0x4005c8f8)
+                [!provide]                        PROVIDE (ets_aes_enable, 0x4005c8cc)
+                [!provide]                        PROVIDE (ets_aes_set_endian, 0x4005c928)
+                [!provide]                        PROVIDE (ets_aes_setkey_dec, 0x4005c994)
+                [!provide]                        PROVIDE (ets_aes_setkey_enc, 0x4005c97c)
+                [!provide]                        PROVIDE (ets_bigint_disable, 0x4005c4e0)
+                [!provide]                        PROVIDE (ets_bigint_enable, 0x4005c498)
+                [!provide]                        PROVIDE (ets_bigint_mod_mult_getz, 0x4005c818)
+                [!provide]                        PROVIDE (ets_bigint_mod_mult_prepare, 0x4005c7b4)
+                [!provide]                        PROVIDE (ets_bigint_mod_power_getz, 0x4005c614)
+                [!provide]                        PROVIDE (ets_bigint_mod_power_prepare, 0x4005c54c)
+                [!provide]                        PROVIDE (ets_bigint_montgomery_mult_getz, 0x4005c7a4)
+                [!provide]                        PROVIDE (ets_bigint_montgomery_mult_prepare, 0x4005c6fc)
+                [!provide]                        PROVIDE (ets_bigint_mult_getz, 0x4005c6e8)
+                [!provide]                        PROVIDE (ets_bigint_mult_prepare, 0x4005c630)
+                [!provide]                        PROVIDE (ets_bigint_wait_finish, 0x4005c520)
+                [!provide]                        PROVIDE (ets_post, 0x4000673c)
+                [!provide]                        PROVIDE (ets_run, 0x400066bc)
+                [!provide]                        PROVIDE (ets_set_idle_cb, 0x40006674)
+                [!provide]                        PROVIDE (ets_task, 0x40006688)
+                [!provide]                        PROVIDE (ets_efuse_get_8M_clock, 0x40008710)
+                [!provide]                        PROVIDE (ets_efuse_get_spiconfig, 0x40008658)
+                [!provide]                        PROVIDE (ets_efuse_program_op, 0x40008628)
+                [!provide]                        PROVIDE (ets_efuse_read_op, 0x40008600)
+                [!provide]                        PROVIDE (ets_intr_lock, 0x400067b0)
+                [!provide]                        PROVIDE (ets_intr_unlock, 0x400067c4)
+                [!provide]                        PROVIDE (ets_isr_attach, 0x400067ec)
+                [!provide]                        PROVIDE (ets_isr_mask, 0x400067fc)
+                [!provide]                        PROVIDE (ets_isr_unmask, 0x40006808)
+                [!provide]                        PROVIDE (ets_waiti0, 0x400067d8)
+                [!provide]                        PROVIDE (intr_matrix_set, 0x4000681c)
+                [!provide]                        PROVIDE (check_pos, 0x400068b8)
+                0x000000004000689c                PROVIDE (ets_set_appcpu_boot_addr, 0x4000689c)
+                [!provide]                        PROVIDE (ets_set_startup_callback, 0x4000688c)
+                [!provide]                        PROVIDE (ets_set_user_start, 0x4000687c)
+                [!provide]                        PROVIDE (ets_unpack_flash_code, 0x40007018)
+                [!provide]                        PROVIDE (ets_unpack_flash_code_legacy, 0x4000694c)
+                [!provide]                        PROVIDE (rom_main, 0x400076c4)
+                [!provide]                        PROVIDE (ets_write_char_uart, 0x40007cf8)
+                [!provide]                        PROVIDE (ets_install_putc1, 0x40007d18)
+                [!provide]                        PROVIDE (ets_install_putc2, 0x40007d38)
+                0x0000000040007d28                PROVIDE (ets_install_uart_printf, 0x40007d28)
+                0x0000000040007d54                PROVIDE (ets_printf, 0x40007d54)
+                [!provide]                        PROVIDE (rtc_boot_control, 0x4000821c)
+                0x00000000400081d4                PROVIDE (rtc_get_reset_reason, 0x400081d4)
+                [!provide]                        PROVIDE (rtc_get_wakeup_cause, 0x400081f4)
+                [!provide]                        PROVIDE (rtc_select_apb_bridge, 0x40008288)
+                [!provide]                        PROVIDE (set_rtc_memory_crc, 0x40008208)
+                [!provide]                        PROVIDE (software_reset, 0x4000824c)
+                [!provide]                        PROVIDE (software_reset_cpu, 0x40008264)
+                [!provide]                        PROVIDE (ets_secure_boot_check, 0x4005cb40)
+                [!provide]                        PROVIDE (ets_secure_boot_check_finish, 0x4005cc04)
+                [!provide]                        PROVIDE (ets_secure_boot_check_start, 0x4005cbcc)
+                [!provide]                        PROVIDE (ets_secure_boot_finish, 0x4005ca84)
+                [!provide]                        PROVIDE (ets_secure_boot_hash, 0x4005cad4)
+                [!provide]                        PROVIDE (ets_secure_boot_obtain, 0x4005cb14)
+                [!provide]                        PROVIDE (ets_secure_boot_rd_abstract, 0x4005cba8)
+                [!provide]                        PROVIDE (ets_secure_boot_rd_iv, 0x4005cb84)
+                [!provide]                        PROVIDE (ets_secure_boot_start, 0x4005ca34)
+                [!provide]                        PROVIDE (ets_sha_disable, 0x4005c0a8)
+                [!provide]                        PROVIDE (ets_sha_enable, 0x4005c07c)
+                [!provide]                        PROVIDE (ets_sha_finish, 0x4005c104)
+                [!provide]                        PROVIDE (ets_sha_init, 0x4005c0d4)
+                [!provide]                        PROVIDE (ets_sha_update, 0x4005c2a0)
+                0x0000000040008534                PROVIDE (ets_delay_us, 0x40008534)
+                [!provide]                        PROVIDE (ets_get_cpu_frequency, 0x4000855c)
+                [!provide]                        PROVIDE (ets_get_detected_xtal_freq, 0x40008588)
+                [!provide]                        PROVIDE (ets_get_xtal_scale, 0x4000856c)
+                [!provide]                        PROVIDE (ets_timer_arm, 0x40008368)
+                [!provide]                        PROVIDE (ets_timer_arm_us, 0x400083ac)
+                [!provide]                        PROVIDE (ets_timer_disarm, 0x400083ec)
+                [!provide]                        PROVIDE (ets_timer_done, 0x40008428)
+                [!provide]                        PROVIDE (ets_timer_handler_isr, 0x40008454)
+                [!provide]                        PROVIDE (ets_timer_init, 0x400084e8)
+                [!provide]                        PROVIDE (ets_timer_setfn, 0x40008350)
+                [!provide]                        PROVIDE (ets_update_cpu_frequency_rom, 0x40008550)
+                [!provide]                        PROVIDE (hci_tl_env, 0x3ffb8154)
                 [!provide]                        PROVIDE (ld_acl_env, 0x3ffb8258)
                 [!provide]                        PROVIDE (ld_active_ch_map, 0x3ffb8334)
                 [!provide]                        PROVIDE (ld_bcst_acl_env, 0x3ffb8274)
@@ -2163,110 +2545,175 @@ END GROUP
                 [!provide]                        PROVIDE (ld_sco_env, 0x3ffb824c)
                 [!provide]                        PROVIDE (ld_sscan_env, 0x3ffb832c)
                 [!provide]                        PROVIDE (ld_strain_env, 0x3ffb8330)
+                [!provide]                        PROVIDE (LM_Sniff, 0x3ffb8230)
+                [!provide]                        PROVIDE (LM_SniffSubRate, 0x3ffb8214)
+                [!provide]                        PROVIDE (prbs_64bytes, 0x3ff98992)
+                [!provide]                        PROVIDE (nvds_env, 0x3ffb8364)
+                [!provide]                        PROVIDE (nvds_magic_number, 0x3ff9912a)
+                [!provide]                        PROVIDE (UART0, 0x3ff40000)
+                [!provide]                        PROVIDE (SPI1, 0x3ff42000)
+                [!provide]                        PROVIDE (SPI0, 0x3ff43000)
+                [!provide]                        PROVIDE (GPIO, 0x3ff44000)
+                [!provide]                        PROVIDE (SIGMADELTA, 0x3ff44f00)
+                [!provide]                        PROVIDE (UHCI1, 0x3ff4c000)
+                [!provide]                        PROVIDE (I2S0, 0x3ff4f000)
+                [!provide]                        PROVIDE (UART1, 0x3ff50000)
+                [!provide]                        PROVIDE (I2C0, 0x3ff53000)
+                [!provide]                        PROVIDE (UHCI0, 0x3ff54000)
+                [!provide]                        PROVIDE (RMT, 0x3ff56000)
+                [!provide]                        PROVIDE (RMTMEM, 0x3ff56800)
+                [!provide]                        PROVIDE (PCNT, 0x3ff57000)
+                [!provide]                        PROVIDE (LEDC, 0x3ff59000)
+                [!provide]                        PROVIDE (MCPWM0, 0x3ff5e000)
+                [!provide]                        PROVIDE (TIMERG0, 0x3ff5f000)
+                [!provide]                        PROVIDE (TIMERG1, 0x3ff60000)
+                [!provide]                        PROVIDE (SPI2, 0x3ff64000)
+                [!provide]                        PROVIDE (SPI3, 0x3ff65000)
+                [!provide]                        PROVIDE (I2C1, 0x3ff67000)
+                [!provide]                        PROVIDE (MCPWM1, 0x3ff6c000)
+                [!provide]                        PROVIDE (I2S1, 0x3ff6d000)
+                [!provide]                        PROVIDE (UART2, 0x3ff6e000)
+                [!provide]                        PROVIDE (SDMMC, 0x3ff68000)
                 0x0000000040008550                PROVIDE (ets_update_cpu_frequency, 0x40008550)
-OUTPUT(/home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader.elf elf32-xtensa-le)
+OUTPUT(/home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader.elf elf32-xtensa-le)
 
-.debug_frame    0x0000000000000000      0x328
- .debug_frame   0x0000000000000000      0x118 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_frame   0x0000000000000118       0xd0 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_frame   0x00000000000001e8       0x28 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_frame   0x0000000000000210       0x58 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_frame   0x0000000000000268       0x58 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_frame   0x00000000000002c0       0x28 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
- .debug_frame   0x00000000000002e8       0x40 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+.debug_frame    0x0000000000000000      0x8b0
+ .debug_frame   0x0000000000000000      0x160 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_frame   0x0000000000000160       0xd0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_frame   0x0000000000000230       0x28 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_frame   0x0000000000000258       0x58 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_frame   0x00000000000002b0       0x58 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_frame   0x0000000000000308       0x58 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
+ .debug_frame   0x0000000000000360      0x208 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_frame   0x0000000000000568      0x280 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_frame   0x00000000000007e8       0xa0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_frame   0x0000000000000888       0x28 /home/sandeep/esp32_bm/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
-.debug_info     0x0000000000000000     0x3068
- .debug_info    0x0000000000000000     0x195e /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_info    0x000000000000195e      0x8e0 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_info    0x000000000000223e      0x343 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_info    0x0000000000002581      0x736 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_info    0x0000000000002cb7      0x14b /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_info    0x0000000000002e02       0xb5 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
- .debug_info    0x0000000000002eb7      0x1b1 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+.debug_info     0x0000000000000000     0x65b2
+ .debug_info    0x0000000000000000     0x2485 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_info    0x0000000000002485      0xc05 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_info    0x000000000000308a      0x381 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_info    0x000000000000340b      0x784 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_info    0x0000000000003b8f      0x278 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_info    0x0000000000003e07      0x2f6 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
+ .debug_info    0x00000000000040fd      0xaf5 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_info    0x0000000000004bf2     0x1095 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_info    0x0000000000005c87      0x363 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_info    0x0000000000005fea      0x5c8 /home/sandeep/esp32_bm/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
-.debug_abbrev   0x0000000000000000      0xc1c
- .debug_abbrev  0x0000000000000000      0x477 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_abbrev  0x0000000000000477      0x1f0 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_abbrev  0x0000000000000667      0x189 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_abbrev  0x00000000000007f0      0x1b8 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_abbrev  0x00000000000009a8       0xd6 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_abbrev  0x0000000000000a7e       0x71 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
- .debug_abbrev  0x0000000000000aef      0x12d /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+.debug_abbrev   0x0000000000000000     0x1404
+ .debug_abbrev  0x0000000000000000      0x443 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_abbrev  0x0000000000000443      0x22f /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_abbrev  0x0000000000000672      0x16c /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_abbrev  0x00000000000007de      0x191 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_abbrev  0x000000000000096f      0x126 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_abbrev  0x0000000000000a95      0x15a /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
+ .debug_abbrev  0x0000000000000bef      0x22e /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_abbrev  0x0000000000000e1d      0x326 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_abbrev  0x0000000000001143      0x162 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_abbrev  0x00000000000012a5      0x15f /home/sandeep/esp32_bm/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
-.debug_loc      0x0000000000000000     0x11e8
- .debug_loc     0x0000000000000000      0x866 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_loc     0x0000000000000866      0x474 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_loc     0x0000000000000cda      0x116 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_loc     0x0000000000000df0      0x3b3 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_loc     0x00000000000011a3       0x45 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+.debug_loc      0x0000000000000000     0x394e
+ .debug_loc     0x0000000000000000      0xe29 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_loc     0x0000000000000e29      0x638 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_loc     0x0000000000001461      0x116 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_loc     0x0000000000001577      0x412 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_loc     0x0000000000001989       0x91 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_loc     0x0000000000001a1a       0xc2 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
+ .debug_loc     0x0000000000001adc      0xa20 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_loc     0x00000000000024fc      0x8a0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_loc     0x0000000000002d9c      0x1ca /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_loc     0x0000000000002f66      0x9e8 /home/sandeep/esp32_bm/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
-.debug_aranges  0x0000000000000000      0x190
+.debug_aranges  0x0000000000000000      0x3a0
  .debug_aranges
-                0x0000000000000000       0x70 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+                0x0000000000000000       0x88 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
  .debug_aranges
-                0x0000000000000070       0x58 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                0x0000000000000088       0x58 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
  .debug_aranges
-                0x00000000000000c8       0x20 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                0x00000000000000e0       0x20 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
  .debug_aranges
-                0x00000000000000e8       0x30 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                0x0000000000000100       0x30 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
  .debug_aranges
-                0x0000000000000118       0x30 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                0x0000000000000130       0x30 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
  .debug_aranges
-                0x0000000000000148       0x20 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
+                0x0000000000000160       0x30 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
  .debug_aranges
-                0x0000000000000168       0x28 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                0x0000000000000190       0xc0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_aranges
+                0x0000000000000250       0xe8 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_aranges
+                0x0000000000000338       0x48 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_aranges
+                0x0000000000000380       0x20 /home/sandeep/esp32_bm/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
-.debug_ranges   0x0000000000000000      0x218
- .debug_ranges  0x0000000000000000       0xc0 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_ranges  0x00000000000000c0       0x60 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_ranges  0x0000000000000120       0x30 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_ranges  0x0000000000000150       0x80 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_ranges  0x00000000000001d0       0x20 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_ranges  0x00000000000001f0       0x10 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
- .debug_ranges  0x0000000000000200       0x18 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+.debug_ranges   0x0000000000000000      0x410
+ .debug_ranges  0x0000000000000000       0x90 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_ranges  0x0000000000000090       0x48 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_ranges  0x00000000000000d8       0x28 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_ranges  0x0000000000000100       0x80 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_ranges  0x0000000000000180       0x20 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_ranges  0x00000000000001a0       0x20 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
+ .debug_ranges  0x00000000000001c0       0xb0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_ranges  0x0000000000000270      0x108 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_ranges  0x0000000000000378       0x38 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_ranges  0x00000000000003b0       0x60 /home/sandeep/esp32_bm/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
-.debug_line     0x0000000000000000     0x1d9c
- .debug_line    0x0000000000000000      0xb75 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
- .debug_line    0x0000000000000b75      0x4e9 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .debug_line    0x000000000000105e      0x297 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .debug_line    0x00000000000012f5      0x543 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .debug_line    0x0000000000001838      0x2bc /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .debug_line    0x0000000000001af4      0x108 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
- .debug_line    0x0000000000001bfc      0x1a0 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+.debug_line     0x0000000000000000     0x3c26
+ .debug_line    0x0000000000000000      0xd94 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+ .debug_line    0x0000000000000d94      0x594 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .debug_line    0x0000000000001328      0x2ec /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .debug_line    0x0000000000001614      0x584 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .debug_line    0x0000000000001b98      0x39f /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .debug_line    0x0000000000001f37      0x2c2 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
+ .debug_line    0x00000000000021f9      0xae0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .debug_line    0x0000000000002cd9      0xa5e /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .debug_line    0x0000000000003737      0x360 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .debug_line    0x0000000000003a97      0x18f /home/sandeep/esp32_bm/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
-.debug_str      0x0000000000000000     0x10cd
- .debug_str     0x0000000000000000      0xbf6 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
-                                        0xc96 (size before relaxing)
- .debug_str     0x0000000000000bf6      0x1fb /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
-                                        0x4a2 (size before relaxing)
- .debug_str     0x0000000000000df1       0x6e /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
-                                        0x36a (size before relaxing)
- .debug_str     0x0000000000000e5f       0x9c /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
-                                        0x5a2 (size before relaxing)
- .debug_str     0x0000000000000efb       0x80 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
-                                        0x22f (size before relaxing)
- .debug_str     0x0000000000000f7b       0xb0 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
-                                        0x1cd (size before relaxing)
- .debug_str     0x000000000000102b       0xa2 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
-                                        0x247 (size before relaxing)
+.debug_str      0x0000000000000000     0x1fcc
+ .debug_str     0x0000000000000000      0xeb4 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+                                        0xf84 (size before relaxing)
+ .debug_str     0x0000000000000eb4      0x20b /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+                                        0x5c4 (size before relaxing)
+ .debug_str     0x00000000000010bf       0x6e /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+                                        0x3c5 (size before relaxing)
+ .debug_str     0x000000000000112d      0x137 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+                                        0x5d0 (size before relaxing)
+ .debug_str     0x0000000000001264       0x8d /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+                                        0x267 (size before relaxing)
+ .debug_str     0x00000000000012f1      0x10e /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
+                                        0x2c1 (size before relaxing)
+ .debug_str     0x00000000000013ff      0x4b2 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+                                        0x76a (size before relaxing)
+ .debug_str     0x00000000000018b1      0x445 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+                                        0x804 (size before relaxing)
+ .debug_str     0x0000000000001cf6      0x12e /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_time.o)
+                                        0x369 (size before relaxing)
+ .debug_str     0x0000000000001e24      0x1a8 /home/sandeep/esp32_bm/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
+                                        0x25a (size before relaxing)
 
-.comment        0x0000000000000000       0x22
- .comment       0x0000000000000000       0x22 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
-                                         0x23 (size before relaxing)
- .comment       0x0000000000000022       0x23 /home/sandeep/esp32_bm/esp-idf/components/esp32/lib//librtc.a(rtc_clk.o)
- .comment       0x0000000000000022       0x23 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .comment       0x0000000000000022       0x23 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .comment       0x0000000000000022       0x23 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .comment       0x0000000000000022       0x23 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .comment       0x0000000000000022       0x23 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
- .comment       0x0000000000000022       0x23 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+.comment        0x0000000000000000       0x3a
+ .comment       0x0000000000000000       0x3a /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+                                         0x3b (size before relaxing)
+ .comment       0x000000000000003a       0x3b /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .comment       0x000000000000003a       0x3b /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .comment       0x000000000000003a       0x3b /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .comment       0x000000000000003a       0x3b /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .comment       0x000000000000003a       0x3b /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
+ .comment       0x000000000000003a       0x3b /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .comment       0x000000000000003a       0x3b /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .comment       0x000000000000003a       0x3b /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .comment       0x000000000000003a       0x3b /home/sandeep/esp32_bm/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)
 
 .xtensa.info    0x0000000000000000       0x38
- .xtensa.info   0x0000000000000000       0x38 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
- .xtensa.info   0x0000000000000038        0x0 /home/sandeep/esp32_bm/esp-idf/components/esp32/lib//librtc.a(rtc_clk.o)
- .xtensa.info   0x0000000000000038        0x0 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
- .xtensa.info   0x0000000000000038        0x0 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
- .xtensa.info   0x0000000000000038        0x0 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
- .xtensa.info   0x0000000000000038        0x0 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
- .xtensa.info   0x0000000000000038        0x0 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
- .xtensa.info   0x0000000000000038        0x0 /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .xtensa.info   0x0000000000000000       0x38 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/main/libmain.a(bootloader_start.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_flash.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(flash_partitions.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(esp_image_format.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/bootloader_support/libbootloader_support.a(bootloader_random.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/log/liblog.a(log.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/spi_flash/libspi_flash.a(spi_flash_rom_patch.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_clk.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/bootloader/soc/libsoc.a(rtc_time.o)
+ .xtensa.info   0x0000000000000038        0x0 /home/sandeep/esp32_bm/xtensa-esp32-elf/bin/../lib/gcc/xtensa-esp32-elf/5.2.0/libgcc.a(_udivdi3.o)

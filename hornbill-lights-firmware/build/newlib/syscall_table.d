@@ -41,7 +41,7 @@ syscall_table.o: \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/dirent.h \
  /home/sandeep/esp32_bm/esp-idf/components/vfs/include/sys/dirent.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/platform_include/esp_newlib.h \
- /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/include/sdkconfig.h
+ /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/include/sdkconfig.h
 
 /home/sandeep/esp32_bm/esp-idf/components/newlib/include/string.h:
 
@@ -125,4 +125,4 @@ syscall_table.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/newlib/platform_include/esp_newlib.h:
 
-/home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/include/sdkconfig.h:
+/home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/include/sdkconfig.h:

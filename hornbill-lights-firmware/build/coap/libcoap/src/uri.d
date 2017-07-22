@@ -31,7 +31,7 @@ libcoap/src/uri.o: \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/_default_fcntl.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/stat.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_task.h \
- /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/include/sdkconfig.h \
+ /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/include/sdkconfig.h \
  /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/lwip/debug.h \
  /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/lwip/arch.h \
  /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/port/arch/cc.h \
@@ -53,7 +53,9 @@ libcoap/src/uri.o: \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/corebits.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/xtruntime-frames.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/soc.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_assert.h \
+ /home/sandeep/esp32_bm/esp-idf/components/newlib/include/assert.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/projdefs.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/portable.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/deprecated_definitions.h \
@@ -62,6 +64,7 @@ libcoap/src/uri.o: \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/xtruntime.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/config/specreg.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/xtruntime-core-state.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_crosscore_int.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/portbenchmark.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/mpu_wrappers.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/task.h \
@@ -78,7 +81,6 @@ libcoap/src/uri.o: \
  /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/lwip/ip6_addr.h \
  /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/lwip/err.h \
  /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/lwip/inet.h \
- /home/sandeep/esp32_bm/esp-idf/components/newlib/include/assert.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/string.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/string.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/ctype.h \
@@ -155,7 +157,7 @@ libcoap/src/uri.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_task.h:
 
-/home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/include/sdkconfig.h:
+/home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/include/sdkconfig.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/lwip/debug.h:
 
@@ -199,7 +201,11 @@ libcoap/src/uri.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/soc.h:
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/soc.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_assert.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/newlib/include/assert.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/projdefs.h:
 
@@ -216,6 +222,8 @@ libcoap/src/uri.o: \
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/config/specreg.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/xtruntime-core-state.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_crosscore_int.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/portbenchmark.h:
 
@@ -248,8 +256,6 @@ libcoap/src/uri.o: \
 /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/lwip/err.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/lwip/inet.h:
-
-/home/sandeep/esp32_bm/esp-idf/components/newlib/include/assert.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/newlib/include/string.h:
 

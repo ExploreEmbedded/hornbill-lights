@@ -63,7 +63,7 @@ static void setItem0(rmt_item32_t *pItem) {
 } // setItem0
 
 
-hornbillLights_begin(rmt_channel_t channel, gpio_num_t gpioNum, uint16_t pixelCount) {
+void hornbillLights_begin(rmt_channel_t channel, gpio_num_t gpioNum, uint16_t pixelCount) {
 	PixelCount = pixelCount;
 	Channel = channel;
 	Items = (rmt_item32_t *)calloc(sizeof(rmt_item32_t), pixelCount * 24);
@@ -88,7 +88,7 @@ hornbillLights_begin(rmt_channel_t channel, gpio_num_t gpioNum, uint16_t pixelCo
 } //
 
 
-hornbillLights_setPixels(uint16_t index, uint8_t red, uint8_t green, uint8_t blue)
+void hornbillLights_setPixels(uint16_t index, uint8_t red, uint8_t green, uint8_t blue)
 {
 	if (index >= PixelCount)
 	{
@@ -100,7 +100,7 @@ hornbillLights_setPixels(uint16_t index, uint8_t red, uint8_t green, uint8_t blu
 	Pixels[index].blue = blue;
 } // setPixel
 
-hornbillLights_showPixels()
+void hornbillLights_showPixels()
 {
 	uint32_t i,j;
 	rmt_item32_t *pCurrentItem = Items;

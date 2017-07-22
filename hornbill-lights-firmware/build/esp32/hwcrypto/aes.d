@@ -20,8 +20,13 @@ hwcrypto/aes.o: \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/stdint.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/aes.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/dport_reg.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/soc.h
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/dport_reg.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_assert.h \
+ /home/sandeep/esp32_bm/esp-idf/components/newlib/include/assert.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/dport_access.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_attr.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_dport_access.h
 
 /home/sandeep/esp32_bm/esp-idf/components/newlib/include/string.h:
 
@@ -63,6 +68,16 @@ hwcrypto/aes.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/aes.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/dport_reg.h:
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/dport_reg.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/soc.h:
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/soc.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_assert.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/newlib/include/assert.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/dport_access.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_attr.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_dport_access.h:

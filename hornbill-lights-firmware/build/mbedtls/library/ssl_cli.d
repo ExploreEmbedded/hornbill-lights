@@ -1,7 +1,7 @@
 library/ssl_cli.o: \
  /home/sandeep/esp32_bm/esp-idf/components/mbedtls/library/ssl_cli.c \
  /home/sandeep/esp32_bm/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
- /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/include/sdkconfig.h \
+ /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/include/sdkconfig.h \
  /home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/check_config.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/limits.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/newlib.h \
@@ -29,6 +29,7 @@ library/ssl_cli.o: \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/machine/time.h \
  /home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/debug.h \
  /home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/ssl.h \
+ /home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/platform.h \
  /home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/bignum.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/stdint.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/_intsup.h \
@@ -59,7 +60,7 @@ library/ssl_cli.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
 
-/home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/include/sdkconfig.h:
+/home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/include/sdkconfig.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/check_config.h:
 
@@ -114,6 +115,8 @@ library/ssl_cli.o: \
 /home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/debug.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/ssl.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/platform.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/bignum.h:
 

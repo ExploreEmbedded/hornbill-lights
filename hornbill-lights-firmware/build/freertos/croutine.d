@@ -15,7 +15,7 @@ croutine.o: \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/stdint.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/include/sdkconfig.h \
+ /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/include/sdkconfig.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/hal.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/config/core.h \
@@ -32,7 +32,9 @@ croutine.o: \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/alloca.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/soc.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_assert.h \
+ /home/sandeep/esp32_bm/esp-idf/components/newlib/include/assert.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/projdefs.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/portable.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/deprecated_definitions.h \
@@ -41,6 +43,7 @@ croutine.o: \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/xtruntime.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/config/specreg.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/xtruntime-core-state.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_crosscore_int.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/portbenchmark.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/mpu_wrappers.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/task.h \
@@ -78,7 +81,7 @@ croutine.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-/home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/include/sdkconfig.h:
+/home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/include/sdkconfig.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 
@@ -112,7 +115,11 @@ croutine.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/soc.h:
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/soc.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_assert.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/newlib/include/assert.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/projdefs.h:
 
@@ -129,6 +136,8 @@ croutine.o: \
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/config/specreg.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/xtruntime-core-state.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_crosscore_int.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/portbenchmark.h:
 

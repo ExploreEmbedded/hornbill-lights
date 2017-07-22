@@ -1,7 +1,9 @@
 deps_config := \
+	/home/sandeep/esp32_bm/esp-idf/components/aws_iot/Kconfig \
 	/home/sandeep/esp32_bm/esp-idf/components/bt/Kconfig \
 	/home/sandeep/esp32_bm/esp-idf/components/esp32/Kconfig \
 	/home/sandeep/esp32_bm/esp-idf/components/ethernet/Kconfig \
+	/home/sandeep/esp32_bm/esp-idf/components/fatfs/Kconfig \
 	/home/sandeep/esp32_bm/esp-idf/components/freertos/Kconfig \
 	/home/sandeep/esp32_bm/esp-idf/components/log/Kconfig \
 	/home/sandeep/esp32_bm/esp-idf/components/lwip/Kconfig \

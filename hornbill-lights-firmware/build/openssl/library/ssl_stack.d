@@ -8,7 +8,7 @@ library/ssl_stack.o: \
  /home/sandeep/esp32_bm/esp-idf/components/openssl/include/internal/x509_vfy.h \
  /home/sandeep/esp32_bm/esp-idf/components/openssl/include/internal/ssl_dbg.h \
  /home/sandeep/esp32_bm/esp-idf/components/openssl/include/platform/ssl_opt.h \
- /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/include/sdkconfig.h \
+ /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/include/sdkconfig.h \
  /home/sandeep/esp32_bm/esp-idf/components/openssl/include/platform/ssl_port.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_types.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/cdefs.h \
@@ -18,13 +18,15 @@ library/ssl_stack.o: \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/sandeep/esp32_bm/esp-idf/components/log/include/esp_log.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/soc.h \
- /home/sandeep/esp32_bm/esp-idf/components/newlib/include/string.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_assert.h \
+ /home/sandeep/esp32_bm/esp-idf/components/newlib/include/assert.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/_ansi.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/newlib.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/config.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/machine/ieeefp.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/config/core-isa.h \
+ /home/sandeep/esp32_bm/esp-idf/components/newlib/include/string.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/reent.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/_ansi.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/_types.h \
@@ -51,7 +53,7 @@ library/ssl_stack.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/openssl/include/platform/ssl_opt.h:
 
-/home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/include/sdkconfig.h:
+/home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/include/sdkconfig.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/openssl/include/platform/ssl_port.h:
 
@@ -71,9 +73,11 @@ library/ssl_stack.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/soc.h:
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/soc.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/newlib/include/string.h:
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_assert.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/newlib/include/assert.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/newlib/include/_ansi.h:
 
@@ -84,6 +88,8 @@ library/ssl_stack.o: \
 /home/sandeep/esp32_bm/esp-idf/components/newlib/include/machine/ieeefp.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/config/core-isa.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/newlib/include/string.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/reent.h:
 

@@ -19,34 +19,42 @@ cpu_start.o: \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/string.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_attr.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_err.h \
+ /home/sandeep/esp32_bm/esp-idf/components/newlib/include/stdio.h \
+ /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/types.h \
+ /home/sandeep/esp32_bm/esp-idf/components/newlib/include/machine/types.h \
+ /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/stdio.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/assert.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/soc.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_assert.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/uart.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_types.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/uart_reg.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/soc.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/uart_reg.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/rtc.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/cache.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/cpu.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/dport_access.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_dport_access.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/cpu.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/corebits.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/dport_reg.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/io_mux_reg.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/rtc_cntl_reg.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/timer_group_reg.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/rtc.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/dport_reg.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/dport_access.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/io_mux_reg.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/rtc_cntl_reg.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/timer_group_reg.h \
  /home/sandeep/esp32_bm/esp-idf/components/driver/include/driver/rtc_io.h \
  /home/sandeep/esp32_bm/esp-idf/components/driver/include/driver/gpio.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/gpio_reg.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/gpio_struct.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/rtc_io_reg.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/gpio_sig_map.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/gpio_reg.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/gpio_struct.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/rtc_io_reg.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/gpio.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_intr_alloc.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_err.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/include/sdkconfig.h \
+ /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/include/sdkconfig.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/hal.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/config/core.h \
@@ -67,6 +75,7 @@ cpu_start.o: \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/xtruntime.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/config/specreg.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/xtruntime-core-state.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_crosscore_int.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/portbenchmark.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/mpu_wrappers.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/task.h \
@@ -80,15 +89,12 @@ cpu_start.o: \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/queue.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_wifi_types.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/queue.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_wifi_types.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_interface.h \
  /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/lwip/ip_addr.h \
  /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/lwip/opt.h \
  /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/port/lwipopts.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/time.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/machine/time.h \
- /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/types.h \
- /home/sandeep/esp32_bm/esp-idf/components/newlib/include/machine/types.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/time.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/fcntl.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/_default_fcntl.h \
@@ -100,32 +106,38 @@ cpu_start.o: \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/errno.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/errno.h \
  /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/port/arch/sys_arch.h \
- /home/sandeep/esp32_bm/esp-idf/components/newlib/include/stdio.h \
- /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/stdio.h \
  /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/lwip/def.h \
  /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/lwip/ip4_addr.h \
  /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/lwip/ip6_addr.h \
  /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/apps/dhcpserver.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/heap_alloc_caps.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_heap_alloc_caps.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_system.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_deep_sleep.h \
+ /home/sandeep/esp32_bm/esp-idf/components/driver/include/driver/touch_pad.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_intr.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h \
+ /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/xtensa_api.h \
  /home/sandeep/esp32_bm/esp-idf/components/spi_flash/include/esp_spi_flash.h \
  /home/sandeep/esp32_bm/esp-idf/components/nvs_flash/include/nvs_flash.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_event.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_wifi_types.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_ipc.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_crosscore_int.h \
  /home/sandeep/esp32_bm/esp-idf/components/log/include/esp_log.h \
  /home/sandeep/esp32_bm/esp-idf/components/vfs/include/esp_vfs_dev.h \
  /home/sandeep/esp32_bm/esp-idf/components/vfs/include/esp_vfs.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/dirent.h \
  /home/sandeep/esp32_bm/esp-idf/components/vfs/include/sys/dirent.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/platform_include/esp_newlib.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_brownout.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/esp_brownout.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_int_wdt.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_task_wdt.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_phy_init.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_cache_err_int.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_coexist.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_panic.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_core_dump.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_app_trace.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_clk.h \
  /home/sandeep/esp32_bm/esp-idf/components/xtensa-debug-module/include/trax.h \
  /home/sandeep/esp32_bm/esp-idf/components/xtensa-debug-module/include/eri.h \
  /home/sandeep/esp32_bm/esp-idf/components/xtensa-debug-module/include/xtensa-debug-module.h
@@ -168,11 +180,21 @@ cpu_start.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_err.h:
 
+/home/sandeep/esp32_bm/esp-idf/components/newlib/include/stdio.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/types.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/newlib/include/machine/types.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/stdio.h:
+
 /home/sandeep/esp32_bm/esp-idf/components/newlib/include/assert.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/soc.h:
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/soc.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_assert.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/uart.h:
 
@@ -180,49 +202,55 @@ cpu_start.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/uart_reg.h:
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/uart_reg.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/soc.h:
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/soc.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/rtc.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/cache.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/cpu.h:
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/dport_access.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_dport_access.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/cpu.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/corebits.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/dport_reg.h:
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/rtc.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/io_mux_reg.h:
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/dport_reg.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/rtc_cntl_reg.h:
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/dport_access.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/timer_group_reg.h:
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/io_mux_reg.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/rtc_cntl_reg.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/timer_group_reg.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/driver/include/driver/rtc_io.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/driver/include/driver/gpio.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/gpio_reg.h:
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/gpio_reg.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/gpio_struct.h:
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/gpio_struct.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/rtc_io_reg.h:
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/rtc_io_reg.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/gpio_sig_map.h:
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/gpio.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_intr_alloc.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_err.h:
-
 /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-/home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/include/sdkconfig.h:
+/home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/include/sdkconfig.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 
@@ -264,6 +292,8 @@ cpu_start.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/xtruntime-core-state.h:
 
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_crosscore_int.h:
+
 /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/portbenchmark.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/mpu_wrappers.h:
@@ -290,8 +320,6 @@ cpu_start.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/queue.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_wifi_types.h:
-
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_interface.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/lwip/ip_addr.h:
@@ -303,10 +331,6 @@ cpu_start.o: \
 /home/sandeep/esp32_bm/esp-idf/components/newlib/include/time.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/newlib/include/machine/time.h:
-
-/home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/types.h:
-
-/home/sandeep/esp32_bm/esp-idf/components/newlib/include/machine/types.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/time.h:
 
@@ -330,10 +354,6 @@ cpu_start.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/port/arch/sys_arch.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/newlib/include/stdio.h:
-
-/home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/stdio.h:
-
 /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/lwip/def.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/lwip/ip4_addr.h:
@@ -342,11 +362,19 @@ cpu_start.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/apps/dhcpserver.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/heap_alloc_caps.h:
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_heap_alloc_caps.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_system.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_deep_sleep.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/driver/include/driver/touch_pad.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_intr.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/xtensa_api.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/spi_flash/include/esp_spi_flash.h:
 
@@ -354,9 +382,9 @@ cpu_start.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_event.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_ipc.h:
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_wifi_types.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_crosscore_int.h:
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_ipc.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/log/include/esp_log.h:
 
@@ -370,7 +398,7 @@ cpu_start.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/newlib/platform_include/esp_newlib.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_brownout.h:
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/esp_brownout.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_int_wdt.h:
 
@@ -378,9 +406,17 @@ cpu_start.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_phy_init.h:
 
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_cache_err_int.h:
+
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_coexist.h:
 
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_panic.h:
+
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_core_dump.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_app_trace.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_clk.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/xtensa-debug-module/include/trax.h:
 

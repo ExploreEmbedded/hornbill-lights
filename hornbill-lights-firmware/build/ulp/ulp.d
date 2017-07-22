@@ -27,13 +27,16 @@ ulp.o: /home/sandeep/esp32_bm/esp-idf/components/ulp/./ulp.c \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/assert.h \
  /home/sandeep/esp32_bm/esp-idf/components/log/include/esp_log.h \
- /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/include/sdkconfig.h \
+ /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/include/sdkconfig.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/soc.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_assert.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_clk.h \
  /home/sandeep/esp32_bm/esp-idf/components/ulp/include/esp32/ulp.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/rtc_cntl_reg.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/soc.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/sens_reg.h
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/rtc.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/rtc_cntl_reg.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/sens_reg.h
 
 /home/sandeep/esp32_bm/esp-idf/components/newlib/include/stdio.h:
 
@@ -91,16 +94,22 @@ ulp.o: /home/sandeep/esp32_bm/esp-idf/components/ulp/./ulp.c \
 
 /home/sandeep/esp32_bm/esp-idf/components/log/include/esp_log.h:
 
-/home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/include/sdkconfig.h:
+/home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/include/sdkconfig.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/soc.h:
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/soc.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_assert.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_clk.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/ulp/include/esp32/ulp.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/rtc_cntl_reg.h:
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/rtc.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/soc.h:
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/rtc_cntl_reg.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/sens_reg.h:
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/soc.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/sens_reg.h:

@@ -17,13 +17,17 @@ trax.o: \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/types.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/machine/types.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/stdio.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/dport_reg.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/soc.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/dport_reg.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/stdint.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/_intsup.h \
- /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/include/sdkconfig.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_err.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_assert.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/assert.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/dport_access.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_attr.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_dport_access.h \
+ /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/include/sdkconfig.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_err.h \
  /home/sandeep/esp32_bm/esp-idf/components/xtensa-debug-module/include/eri.h \
  /home/sandeep/esp32_bm/esp-idf/components/xtensa-debug-module/include/xtensa-debug-module.h \
  /home/sandeep/esp32_bm/esp-idf/components/xtensa-debug-module/include/trax.h \
@@ -31,7 +35,7 @@ trax.o: \
  /home/sandeep/esp32_bm/esp-idf/components/xtensa-debug-module/include/xtensa-debug-module.h \
  /home/sandeep/esp32_bm/esp-idf/components/log/include/esp_log.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/soc.h
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/soc.h
 
 /home/sandeep/esp32_bm/esp-idf/components/newlib/include/stdio.h:
 
@@ -67,19 +71,27 @@ trax.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/stdio.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/dport_reg.h:
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/dport_reg.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/soc.h:
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/soc.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/newlib/include/stdint.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/_intsup.h:
 
-/home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/include/sdkconfig.h:
-
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_err.h:
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_assert.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/newlib/include/assert.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/dport_access.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_attr.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_dport_access.h:
+
+/home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/include/sdkconfig.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_err.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/xtensa-debug-module/include/eri.h:
 
@@ -95,4 +107,4 @@ trax.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/soc.h:
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/soc.h:

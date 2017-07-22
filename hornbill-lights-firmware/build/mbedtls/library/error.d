@@ -1,7 +1,7 @@
 library/error.o: \
  /home/sandeep/esp32_bm/esp-idf/components/mbedtls/library/error.c \
  /home/sandeep/esp32_bm/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
- /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/include/sdkconfig.h \
+ /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/include/sdkconfig.h \
  /home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/check_config.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/limits.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/newlib.h \
@@ -72,6 +72,7 @@ library/error.o: \
  /home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/pkcs5.h \
  /home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/rsa.h \
  /home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/ssl.h \
+ /home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/platform.h \
  /home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/ssl_ciphersuites.h \
  /home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/x509_crt.h \
  /home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/x509_crl.h \
@@ -82,7 +83,7 @@ library/error.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
 
-/home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/include/sdkconfig.h:
+/home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/include/sdkconfig.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/check_config.h:
 
@@ -223,6 +224,8 @@ library/error.o: \
 /home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/rsa.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/ssl.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/platform.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/ssl_ciphersuites.h:
 

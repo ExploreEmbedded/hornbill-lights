@@ -5,31 +5,36 @@ bluedroid/btc/core/btc_main.o: \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/machine/_default_types.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/features.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/_intsup.h \
- /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/include/bt_defs.h \
- /home/sandeep/esp32_bm/esp-idf/components/newlib/include/stdlib.h \
- /home/sandeep/esp32_bm/esp-idf/components/newlib/include/machine/ieeefp.h \
+ /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/include/bt_target.h \
+ /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/include/sdkconfig.h \
+ /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/stack/include/bt_types.h \
+ /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/include/gki_target.h \
+ /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/stack/include/dyn_mem.h \
+ /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/include/bt_trace.h \
+ /home/sandeep/esp32_bm/esp-idf/components/newlib/include/stdio.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/_ansi.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/newlib.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/config.h \
+ /home/sandeep/esp32_bm/esp-idf/components/newlib/include/machine/ieeefp.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/config/core-isa.h \
+ /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/cdefs.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/reent.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/_ansi.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/_types.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/machine/_types.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/lock.h \
- /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/cdefs.h \
- /home/sandeep/esp32_bm/esp-idf/components/newlib/include/machine/stdlib.h \
- /home/sandeep/esp32_bm/esp-idf/components/newlib/include/alloca.h \
- /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/include/bt_trace.h \
- /home/sandeep/esp32_bm/esp-idf/components/newlib/include/stdio.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/types.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/machine/types.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/stdio.h \
- /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/stack/include/bt_types.h \
  /home/sandeep/esp32_bm/esp-idf/components/log/include/esp_log.h \
- /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/include/sdkconfig.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/soc.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_assert.h \
+ /home/sandeep/esp32_bm/esp-idf/components/newlib/include/assert.h \
+ /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/include/bt_defs.h \
+ /home/sandeep/esp32_bm/esp-idf/components/newlib/include/stdlib.h \
+ /home/sandeep/esp32_bm/esp-idf/components/newlib/include/machine/stdlib.h \
+ /home/sandeep/esp32_bm/esp-idf/components/newlib/include/alloca.h \
  /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/osi/include/osi_arch.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
@@ -51,6 +56,7 @@ bluedroid/btc/core/btc_main.o: \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/xtruntime.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/config/specreg.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/xtruntime-core-state.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_crosscore_int.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/portbenchmark.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/mpu_wrappers.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/task.h \
@@ -62,13 +68,11 @@ bluedroid/btc/core/btc_main.o: \
  /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/osi/include/thread.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/xtensa_api.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_task.h \
  /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/btc/include/btc_main.h \
  /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/osi/include/future.h \
  /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/osi/include/osi_arch.h \
  /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/bta/include/bta_api.h \
- /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/include/bt_target.h \
- /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/include/gki_target.h \
- /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/stack/include/dyn_mem.h \
  /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/stack/include/btm_api.h \
  /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/stack/include/hcidefs.h \
  /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/stack/include/bt_types.h \
@@ -86,8 +90,13 @@ bluedroid/btc/core/btc_main.o: \
  /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/include/bt_defs.h \
  /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/btc/include/btc_main.h \
  /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/btc/include/btc_task.h \
+ /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/btc/include/btc_dm.h \
+ /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/api/include/esp_bt_defs.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_err.h \
- /home/sandeep/esp32_bm/esp-idf/components/newlib/include/assert.h
+ /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/btc/include/btc_config.h \
+ /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/osi/include/alarm.h \
+ /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/timers.h \
+ /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/task.h
 
 /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/btc/include/btc_task.h:
 
@@ -99,11 +108,19 @@ bluedroid/btc/core/btc_main.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/_intsup.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/include/bt_defs.h:
+/home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/include/bt_target.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/newlib/include/stdlib.h:
+/home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/include/sdkconfig.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/newlib/include/machine/ieeefp.h:
+/home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/stack/include/bt_types.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/include/gki_target.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/stack/include/dyn_mem.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/include/bt_trace.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/newlib/include/stdio.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/newlib/include/_ansi.h:
 
@@ -111,7 +128,11 @@ bluedroid/btc/core/btc_main.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/config.h:
 
+/home/sandeep/esp32_bm/esp-idf/components/newlib/include/machine/ieeefp.h:
+
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/config/core-isa.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/cdefs.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/reent.h:
 
@@ -123,31 +144,29 @@ bluedroid/btc/core/btc_main.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/lock.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/cdefs.h:
-
-/home/sandeep/esp32_bm/esp-idf/components/newlib/include/machine/stdlib.h:
-
-/home/sandeep/esp32_bm/esp-idf/components/newlib/include/alloca.h:
-
-/home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/include/bt_trace.h:
-
-/home/sandeep/esp32_bm/esp-idf/components/newlib/include/stdio.h:
-
 /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/types.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/newlib/include/machine/types.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/stdio.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/stack/include/bt_types.h:
-
 /home/sandeep/esp32_bm/esp-idf/components/log/include/esp_log.h:
-
-/home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/include/sdkconfig.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/soc.h:
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/soc.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_assert.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/newlib/include/assert.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/include/bt_defs.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/newlib/include/stdlib.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/newlib/include/machine/stdlib.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/newlib/include/alloca.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/osi/include/osi_arch.h:
 
@@ -191,6 +210,8 @@ bluedroid/btc/core/btc_main.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/xtruntime-core-state.h:
 
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_crosscore_int.h:
+
 /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/portbenchmark.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/mpu_wrappers.h:
@@ -213,6 +234,8 @@ bluedroid/btc/core/btc_main.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_task.h:
+
 /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/btc/include/btc_main.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/osi/include/future.h:
@@ -220,12 +243,6 @@ bluedroid/btc/core/btc_main.o: \
 /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/osi/include/osi_arch.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/bta/include/bta_api.h:
-
-/home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/include/bt_target.h:
-
-/home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/include/gki_target.h:
-
-/home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/stack/include/dyn_mem.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/stack/include/btm_api.h:
 
@@ -261,6 +278,16 @@ bluedroid/btc/core/btc_main.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/btc/include/btc_task.h:
 
+/home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/btc/include/btc_dm.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/api/include/esp_bt_defs.h:
+
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_err.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/newlib/include/assert.h:
+/home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/btc/include/btc_config.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/osi/include/alarm.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/timers.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/task.h:

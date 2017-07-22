@@ -21,6 +21,10 @@ freertos_hooks.o: \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_attr.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_freertos_hooks.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_err.h \
+ /home/sandeep/esp32_bm/esp-idf/components/newlib/include/stdio.h \
+ /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/types.h \
+ /home/sandeep/esp32_bm/esp-idf/components/newlib/include/machine/types.h \
+ /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/stdio.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/assert.h
 
 /home/sandeep/esp32_bm/esp-idf/components/newlib/include/stdint.h:
@@ -64,5 +68,13 @@ freertos_hooks.o: \
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_freertos_hooks.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_err.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/newlib/include/stdio.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/types.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/newlib/include/machine/types.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/stdio.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/newlib/include/assert.h:

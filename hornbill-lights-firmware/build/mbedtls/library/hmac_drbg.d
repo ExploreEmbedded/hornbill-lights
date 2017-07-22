@@ -1,7 +1,7 @@
 library/hmac_drbg.o: \
  /home/sandeep/esp32_bm/esp-idf/components/mbedtls/library/hmac_drbg.c \
  /home/sandeep/esp32_bm/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
- /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/include/sdkconfig.h \
+ /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/include/sdkconfig.h \
  /home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/check_config.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/limits.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/newlib.h \
@@ -21,11 +21,11 @@ library/hmac_drbg.o: \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/lock.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/cdefs.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/string.h \
- /home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/platform.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/stdio.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/types.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/machine/types.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/stdio.h \
+ /home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/platform.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/stdlib.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/machine/stdlib.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/alloca.h \
@@ -34,7 +34,7 @@ library/hmac_drbg.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
 
-/home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/include/sdkconfig.h:
+/home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/include/sdkconfig.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/check_config.h:
 
@@ -74,8 +74,6 @@ library/hmac_drbg.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/string.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/platform.h:
-
 /home/sandeep/esp32_bm/esp-idf/components/newlib/include/stdio.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/types.h:
@@ -83,6 +81,8 @@ library/hmac_drbg.o: \
 /home/sandeep/esp32_bm/esp-idf/components/newlib/include/machine/types.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/stdio.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/platform.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/newlib/include/stdlib.h:
 

@@ -1,6 +1,6 @@
 port/net.o: /home/sandeep/esp32_bm/esp-idf/components/mbedtls/port/net.c \
  /home/sandeep/esp32_bm/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
- /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/include/sdkconfig.h \
+ /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/include/sdkconfig.h \
  /home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/check_config.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/limits.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/newlib.h \
@@ -28,6 +28,7 @@ port/net.o: /home/sandeep/esp32_bm/esp-idf/components/mbedtls/port/net.c \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/machine/time.h \
  /home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/net.h \
  /home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/ssl.h \
+ /home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/platform.h \
  /home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/bignum.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/stdint.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/_intsup.h \
@@ -74,7 +75,9 @@ port/net.o: /home/sandeep/esp32_bm/esp-idf/components/mbedtls/port/net.c \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/corebits.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/xtruntime-frames.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/soc.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_assert.h \
+ /home/sandeep/esp32_bm/esp-idf/components/newlib/include/assert.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/projdefs.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/portable.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/deprecated_definitions.h \
@@ -83,6 +86,7 @@ port/net.o: /home/sandeep/esp32_bm/esp-idf/components/mbedtls/port/net.c \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/xtruntime.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/config/specreg.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/xtruntime-core-state.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_crosscore_int.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/portbenchmark.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/mpu_wrappers.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/task.h \
@@ -103,7 +107,7 @@ port/net.o: /home/sandeep/esp32_bm/esp-idf/components/mbedtls/port/net.c \
 
 /home/sandeep/esp32_bm/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
 
-/home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/include/sdkconfig.h:
+/home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/include/sdkconfig.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/check_config.h:
 
@@ -158,6 +162,8 @@ port/net.o: /home/sandeep/esp32_bm/esp-idf/components/mbedtls/port/net.c \
 /home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/net.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/ssl.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/platform.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/bignum.h:
 
@@ -251,7 +257,11 @@ port/net.o: /home/sandeep/esp32_bm/esp-idf/components/mbedtls/port/net.c \
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/soc.h:
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/soc.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_assert.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/newlib/include/assert.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/projdefs.h:
 
@@ -268,6 +278,8 @@ port/net.o: /home/sandeep/esp32_bm/esp-idf/components/mbedtls/port/net.c \
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/config/specreg.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/xtruntime-core-state.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_crosscore_int.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/portbenchmark.h:
 

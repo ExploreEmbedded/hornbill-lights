@@ -14,13 +14,16 @@ xtensa_vectors.o: \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/config/system.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/simcall.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
- /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/include/sdkconfig.h \
+ /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/include/sdkconfig.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/xtensa_config.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/xtensa_context.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/xtruntime-frames.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/xtensa_timer.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/xtensa_rtos.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_panic.h
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_panic.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/dport_reg.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/soc.h
 
 /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/xtensa_rtos.h:
 
@@ -50,7 +53,7 @@ xtensa_vectors.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h:
 
-/home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/include/sdkconfig.h:
+/home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/include/sdkconfig.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/xtensa_config.h:
 
@@ -63,3 +66,9 @@ xtensa_vectors.o: \
 /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/xtensa_rtos.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_panic.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/soc.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/dport_reg.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/soc.h:

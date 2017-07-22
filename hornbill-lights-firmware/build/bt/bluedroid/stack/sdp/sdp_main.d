@@ -19,6 +19,7 @@ bluedroid/stack/sdp/sdp_main.o: \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/string.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/string.h \
  /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/include/bt_target.h \
+ /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/include/sdkconfig.h \
  /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/stack/include/bt_types.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/stdint.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/_intsup.h \
@@ -30,9 +31,10 @@ bluedroid/stack/sdp/sdp_main.o: \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/machine/types.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/stdio.h \
  /home/sandeep/esp32_bm/esp-idf/components/log/include/esp_log.h \
- /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/include/sdkconfig.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/soc.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_assert.h \
+ /home/sandeep/esp32_bm/esp-idf/components/newlib/include/assert.h \
  /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/gki/include/gki.h \
  /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/gki/include/gki_common.h \
  /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/gki/include/gki.h \
@@ -59,6 +61,7 @@ bluedroid/stack/sdp/sdp_main.o: \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/xtruntime.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/config/specreg.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/xtruntime-core-state.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_crosscore_int.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/portbenchmark.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/mpu_wrappers.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/task.h \
@@ -120,6 +123,8 @@ bluedroid/stack/sdp/sdp_main.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/include/bt_target.h:
 
+/home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/include/sdkconfig.h:
+
 /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/stack/include/bt_types.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/newlib/include/stdint.h:
@@ -142,11 +147,13 @@ bluedroid/stack/sdp/sdp_main.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/log/include/esp_log.h:
 
-/home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/include/sdkconfig.h:
-
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/soc.h:
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/soc.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_assert.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/newlib/include/assert.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/bt/bluedroid/gki/include/gki.h:
 
@@ -199,6 +206,8 @@ bluedroid/stack/sdp/sdp_main.o: \
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/config/specreg.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/xtruntime-core-state.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_crosscore_int.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/portbenchmark.h:
 

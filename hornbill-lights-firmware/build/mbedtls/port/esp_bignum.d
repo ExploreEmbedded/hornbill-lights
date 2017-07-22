@@ -29,32 +29,31 @@ port/esp_bignum.o: \
  /home/sandeep/esp32_bm/esp-idf/components/mbedtls/port/include/mbedtls/bignum.h \
  /home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/bignum.h \
  /home/sandeep/esp32_bm/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
- /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/include/sdkconfig.h \
+ /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/include/sdkconfig.h \
  /home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/check_config.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/stdint.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/_intsup.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/bigint.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/hwcrypto_reg.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/soc.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/hwcrypto_reg.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_assert.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_system.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_err.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_deep_sleep.h \
  /home/sandeep/esp32_bm/esp-idf/components/driver/include/driver/gpio.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_err.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_types.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/gpio_reg.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/gpio_struct.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/rtc_io_reg.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/io_mux_reg.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/gpio_sig_map.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/gpio_reg.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/gpio_struct.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/rtc_io_reg.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/io_mux_reg.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/gpio.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_attr.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_intr_alloc.h \
- /home/sandeep/esp32_bm/esp-idf/components/log/include/esp_log.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/soc.h \
+ /home/sandeep/esp32_bm/esp-idf/components/driver/include/driver/touch_pad.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_intr.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/soc.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/xtensa_api.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/hal.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/xtensa_context.h \
@@ -65,7 +64,11 @@ port/esp_bignum.o: \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/config/core.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/xtensa-versions.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/config/core-matmap.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/dport_reg.h \
+ /home/sandeep/esp32_bm/esp-idf/components/log/include/esp_log.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/dport_reg.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/dport_access.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_dport_access.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/FreeRTOS.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/FreeRTOSConfig.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/xtensa_config.h \
@@ -77,6 +80,7 @@ port/esp_bignum.o: \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/xtruntime.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/config/specreg.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/xtruntime-core-state.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_crosscore_int.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/portbenchmark.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/mpu_wrappers.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/task.h \
@@ -142,7 +146,7 @@ port/esp_bignum.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
 
-/home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/include/sdkconfig.h:
+/home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/include/sdkconfig.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/mbedtls/include/mbedtls/check_config.h:
 
@@ -152,9 +156,11 @@ port/esp_bignum.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/bigint.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/hwcrypto_reg.h:
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/hwcrypto_reg.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/soc.h:
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/soc.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_assert.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_system.h:
 
@@ -164,19 +170,17 @@ port/esp_bignum.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/driver/include/driver/gpio.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_err.h:
-
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_types.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/gpio_reg.h:
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/gpio_reg.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/gpio_struct.h:
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/gpio_struct.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/rtc_io_reg.h:
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/rtc_io_reg.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/io_mux_reg.h:
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/io_mux_reg.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/gpio_sig_map.h:
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/gpio_sig_map.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/gpio.h:
 
@@ -184,15 +188,13 @@ port/esp_bignum.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_intr_alloc.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/log/include/esp_log.h:
-
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h:
-
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/soc.h:
+/home/sandeep/esp32_bm/esp-idf/components/driver/include/driver/touch_pad.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_intr.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/soc.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/xtensa_api.h:
 
@@ -214,7 +216,15 @@ port/esp_bignum.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/config/core-matmap.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/dport_reg.h:
+/home/sandeep/esp32_bm/esp-idf/components/log/include/esp_log.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/dport_reg.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/dport_access.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_dport_access.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/FreeRTOS.h:
 
@@ -237,6 +247,8 @@ port/esp_bignum.o: \
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/config/specreg.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/xtruntime-core-state.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_crosscore_int.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/portbenchmark.h:
 

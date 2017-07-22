@@ -27,7 +27,6 @@ tcpip_adapter_lwip.o: \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/queue.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_err.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/assert.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_wifi_types.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_interface.h \
  /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/lwip/ip_addr.h \
  /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/lwip/opt.h \
@@ -42,7 +41,7 @@ tcpip_adapter_lwip.o: \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/_default_fcntl.h \
  /home/sandeep/esp32_bm/esp-idf/components/newlib/include/sys/stat.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_task.h \
- /home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/include/sdkconfig.h \
+ /home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/include/sdkconfig.h \
  /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/lwip/debug.h \
  /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/lwip/arch.h \
  /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/port/arch/cc.h \
@@ -62,7 +61,8 @@ tcpip_adapter_lwip.o: \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/corebits.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/xtruntime-frames.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/soc.h \
+ /home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_assert.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/projdefs.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/portable.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/deprecated_definitions.h \
@@ -71,6 +71,7 @@ tcpip_adapter_lwip.o: \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/xtruntime.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/config/specreg.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/xtruntime-core-state.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_crosscore_int.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/portbenchmark.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/mpu_wrappers.h \
  /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/task.h \
@@ -101,13 +102,16 @@ tcpip_adapter_lwip.o: \
  /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/lwip/ip4.h \
  /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/lwip/ip6.h \
  /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/lwip/nd6.h \
+ /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/lwip/priv/tcpip_priv.h \
  /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/lwip/dns.h \
  /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/port/netif/wlanif.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_wifi.h \
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_wifi_types.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_event.h \
  /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_wifi_internal.h \
  /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/port/netif/ethernetif.h \
- /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_event.h
+ /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_event.h \
+ /home/sandeep/esp32_bm/esp-idf/components/log/include/esp_log.h
 
 /home/sandeep/esp32_bm/esp-idf/components/newlib/include/stdio.h:
 
@@ -163,8 +167,6 @@ tcpip_adapter_lwip.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/newlib/include/assert.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_wifi_types.h:
-
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_interface.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/lwip/ip_addr.h:
@@ -193,7 +195,7 @@ tcpip_adapter_lwip.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_task.h:
 
-/home/sandeep/apps/hornbill-lights/hornbill-lights-firmware/build/include/sdkconfig.h:
+/home/sandeep/apps/hornbill-lights-july-22/hornbill-lights-firmware/build/include/sdkconfig.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/lwip/debug.h:
 
@@ -233,7 +235,9 @@ tcpip_adapter_lwip.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/rom/ets_sys.h:
 
-/home/sandeep/esp32_bm/esp-idf/components/esp32/include/soc/soc.h:
+/home/sandeep/esp32_bm/esp-idf/components/soc/esp32/include/soc/soc.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_assert.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/projdefs.h:
 
@@ -250,6 +254,8 @@ tcpip_adapter_lwip.o: \
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/config/specreg.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/xtensa/xtruntime-core-state.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_crosscore_int.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/freertos/include/freertos/portbenchmark.h:
 
@@ -311,11 +317,15 @@ tcpip_adapter_lwip.o: \
 
 /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/lwip/nd6.h:
 
+/home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/lwip/priv/tcpip_priv.h:
+
 /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/lwip/dns.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/port/netif/wlanif.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_wifi.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_wifi_types.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_event.h:
 
@@ -324,3 +334,5 @@ tcpip_adapter_lwip.o: \
 /home/sandeep/esp32_bm/esp-idf/components/lwip/include/lwip/port/netif/ethernetif.h:
 
 /home/sandeep/esp32_bm/esp-idf/components/esp32/include/esp_event.h:
+
+/home/sandeep/esp32_bm/esp-idf/components/log/include/esp_log.h:
