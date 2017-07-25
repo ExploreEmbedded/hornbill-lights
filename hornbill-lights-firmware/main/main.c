@@ -14,22 +14,7 @@
 
 void app_main()
 {
-    /*
-    esp_err_t ret;
-    esp_bt_controller_init();
-
-    ret = esp_bluedroid_init();
-    if (ret) {
-        ESP_LOGE(GATTS_TAG, "%s init bluetooth failed\n", __func__);
-        return;
-    }
-
-    ret = esp_bluedroid_enable();
-    if (ret) {
-        ESP_LOGE(GATTS_TAG, "%s enable bluetooth failed\n", __func__);
-        return;
-    }
-    */
+  
 
     esp_err_t ret;
 
@@ -68,4 +53,4 @@ void app_main()
     
 
 
-}
+}   
